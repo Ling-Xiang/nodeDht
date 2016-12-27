@@ -1,0 +1,2331 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\nodejs\\node.exe',
+1 verbose cli   'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ffi' ]
+2 info using npm@3.10.10
+3 info using node@v7.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ffi
+8 silly fetchNamedPackageData ffi
+9 silly mapToRegistry name ffi
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'ffi',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'ffi',
+12 silly mapToRegistry   name: 'ffi',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/ffi
+14 verbose request uri https://registry.npmjs.org/ffi
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:00:05 AM
+17 verbose request id dab67af060a54403
+18 http request GET https://registry.npmjs.org/ffi
+19 http 200 https://registry.npmjs.org/ffi
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Fri, 25 Nov 2016 10:59:46 GMT',
+20 verbose headers   etag: 'W/"583819a2-8063"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '4884',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Thu, 22 Dec 2016 02:00:05 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1482372005.246859,VS0,VE616',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Fri, 25 Nov 2016 10:59:46 GMT',
+21 silly get     etag: 'W/"583819a2-8063"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '4884',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Thu, 22 Dec 2016 02:00:05 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-itm7424-ITM',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1482372005.246859,VS0,VE616',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving ffi to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\ffi\.cache.json
+23 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule ffi@2.2.0 checking installable status
+37 silly cache add args [ 'ffi', null ]
+38 verbose cache add spec ffi
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'ffi',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'ffi',
+39 silly cache add   name: 'ffi',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed ffi@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for ffi
+42 info addNameTag [ 'ffi', 'latest' ]
+43 silly mapToRegistry name ffi
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'ffi',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'ffi',
+46 silly mapToRegistry   name: 'ffi',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/ffi
+48 verbose addNameTag registry:https://registry.npmjs.org/ffi not in flight; fetching
+49 verbose get https://registry.npmjs.org/ffi not expired, no request
+50 silly addNameTag next cb for ffi with tag latest
+51 silly addNamed ffi@2.2.0
+52 verbose addNamed "2.2.0" is a plain semver version for ffi
+53 silly mapToRegistry name ffi
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'ffi',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'ffi',
+56 silly mapToRegistry   name: 'ffi',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/ffi
+58 verbose addRemoteTarball https://registry.npmjs.org/ffi/-/ffi-2.2.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/ffi/-/ffi-2.2.0.tgz',
+59 verbose addRemoteTarball   'bf18b04666a29f71227ed56895d5430af47042fa' ]
+60 info retry fetch attempt 1 at 10:00:06 AM
+61 info attempt registry request try #1 at 10:00:06 AM
+62 http fetch GET https://registry.npmjs.org/ffi/-/ffi-2.2.0.tgz
+63 http fetch 200 https://registry.npmjs.org/ffi/-/ffi-2.2.0.tgz
+64 silly fetchAndShaCheck shasum bf18b04666a29f71227ed56895d5430af47042fa
+65 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\ffi\-\ffi-2.2.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for ffi@2.2.0
+67 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd ffi@2.2.0
+69 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ffi\2.2.0\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ffi\2.2.0\package\package.json written
+72 silly fetchNamedPackageData bindings
+73 silly mapToRegistry name bindings
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bindings',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bindings',
+76 silly mapToRegistry   name: 'bindings',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bindings
+78 silly fetchNamedPackageData debug
+79 silly mapToRegistry name debug
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'debug',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'debug',
+82 silly mapToRegistry   name: 'debug',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/debug
+84 silly fetchNamedPackageData ref
+85 silly mapToRegistry name ref
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'ref',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'ref',
+88 silly mapToRegistry   name: 'ref',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/ref
+90 silly fetchNamedPackageData ref-struct
+91 silly mapToRegistry name ref-struct
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'ref-struct',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'ref-struct',
+94 silly mapToRegistry   name: 'ref-struct',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+96 silly fetchNamedPackageData nan
+97 silly mapToRegistry name nan
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'nan',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'nan',
+100 silly mapToRegistry   name: 'nan',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/nan
+102 verbose request uri https://registry.npmjs.org/bindings
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 10:00:08 AM
+105 http request GET https://registry.npmjs.org/bindings
+106 verbose request uri https://registry.npmjs.org/debug
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:00:08 AM
+109 http request GET https://registry.npmjs.org/debug
+110 verbose request uri https://registry.npmjs.org/ref
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 10:00:08 AM
+113 http request GET https://registry.npmjs.org/ref
+114 verbose request uri https://registry.npmjs.org/ref-struct
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 10:00:08 AM
+117 http request GET https://registry.npmjs.org/ref-struct
+118 verbose request uri https://registry.npmjs.org/nan
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 10:00:08 AM
+121 http request GET https://registry.npmjs.org/nan
+122 http 200 https://registry.npmjs.org/bindings
+123 verbose headers { server: 'nginx/1.10.1',
+123 verbose headers   'content-type': 'application/json',
+123 verbose headers   'last-modified': 'Tue, 18 Oct 2016 15:54:59 GMT',
+123 verbose headers   etag: 'W/"580645d3-46f7"',
+123 verbose headers   'content-encoding': 'gzip',
+123 verbose headers   'cache-control': 'max-age=300',
+123 verbose headers   'content-length': '3493',
+123 verbose headers   'accept-ranges': 'bytes',
+123 verbose headers   date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+123 verbose headers   via: '1.1 varnish',
+123 verbose headers   age: '48',
+123 verbose headers   connection: 'keep-alive',
+123 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+123 verbose headers   'x-cache': 'HIT',
+123 verbose headers   'x-cache-hits': '1',
+123 verbose headers   'x-timer': 'S1482372007.568364,VS0,VE0',
+123 verbose headers   vary: 'Accept-Encoding' }
+124 silly get cb [ 200,
+124 silly get   { server: 'nginx/1.10.1',
+124 silly get     'content-type': 'application/json',
+124 silly get     'last-modified': 'Tue, 18 Oct 2016 15:54:59 GMT',
+124 silly get     etag: 'W/"580645d3-46f7"',
+124 silly get     'content-encoding': 'gzip',
+124 silly get     'cache-control': 'max-age=300',
+124 silly get     'content-length': '3493',
+124 silly get     'accept-ranges': 'bytes',
+124 silly get     date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     age: '48',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-itm7424-ITM',
+124 silly get     'x-cache': 'HIT',
+124 silly get     'x-cache-hits': '1',
+124 silly get     'x-timer': 'S1482372007.568364,VS0,VE0',
+124 silly get     vary: 'Accept-Encoding' } ]
+125 verbose get saving bindings to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+126 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+127 silly resolveWithNewModule bindings@1.2.1 checking installable status
+128 silly cache add args [ 'bindings@~1.2.0', null ]
+129 verbose cache add spec bindings@~1.2.0
+130 silly cache add parsed spec Result {
+130 silly cache add   raw: 'bindings@~1.2.0',
+130 silly cache add   scope: null,
+130 silly cache add   escapedName: 'bindings',
+130 silly cache add   name: 'bindings',
+130 silly cache add   rawSpec: '~1.2.0',
+130 silly cache add   spec: '>=1.2.0 <1.3.0',
+130 silly cache add   type: 'range' }
+131 silly addNamed bindings@>=1.2.0 <1.3.0
+132 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for bindings
+133 silly addNameRange { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: false }
+134 silly mapToRegistry name bindings
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'bindings',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   escapedName: 'bindings',
+137 silly mapToRegistry   name: 'bindings',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/bindings
+139 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+140 verbose get https://registry.npmjs.org/bindings not expired, no request
+141 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: true }
+142 silly addNameRange versions [ 'bindings',
+142 silly addNameRange   [ '0.0.1',
+142 silly addNameRange     '0.1.0',
+142 silly addNameRange     '0.1.1',
+142 silly addNameRange     '0.2.0',
+142 silly addNameRange     '0.2.1',
+142 silly addNameRange     '0.2.2',
+142 silly addNameRange     '0.2.3',
+142 silly addNameRange     '0.2.4',
+142 silly addNameRange     '0.3.0',
+142 silly addNameRange     '0.4.0',
+142 silly addNameRange     '1.0.0',
+142 silly addNameRange     '1.1.0',
+142 silly addNameRange     '1.1.1',
+142 silly addNameRange     '1.2.0',
+142 silly addNameRange     '1.2.1' ] ]
+143 silly addNamed bindings@1.2.1
+144 verbose addNamed "1.2.1" is a plain semver version for bindings
+145 silly mapToRegistry name bindings
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: 'bindings',
+148 silly mapToRegistry   scope: null,
+148 silly mapToRegistry   escapedName: 'bindings',
+148 silly mapToRegistry   name: 'bindings',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri https://registry.npmjs.org/bindings
+150 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+151 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+151 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+152 info retry fetch attempt 1 at 10:00:08 AM
+153 info attempt registry request try #1 at 10:00:08 AM
+154 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+155 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+156 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+157 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\bindings\-\bindings-1.2.1.tgz not in flight; adding
+158 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+159 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+160 silly cache afterAdd bindings@1.2.1
+161 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+162 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+163 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+164 http 200 https://registry.npmjs.org/debug
+165 verbose headers { server: 'nginx/1.10.1',
+165 verbose headers   'content-type': 'application/json',
+165 verbose headers   'last-modified': 'Wed, 21 Dec 2016 06:43:38 GMT',
+165 verbose headers   etag: 'W/"585a249a-f0cd"',
+165 verbose headers   'content-encoding': 'gzip',
+165 verbose headers   'cache-control': 'max-age=300',
+165 verbose headers   'content-length': '12133',
+165 verbose headers   'accept-ranges': 'bytes',
+165 verbose headers   date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+165 verbose headers   via: '1.1 varnish',
+165 verbose headers   age: '90',
+165 verbose headers   connection: 'keep-alive',
+165 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+165 verbose headers   'x-cache': 'HIT',
+165 verbose headers   'x-cache-hits': '108',
+165 verbose headers   'x-timer': 'S1482372007.798846,VS0,VE0',
+165 verbose headers   vary: 'Accept-Encoding' }
+166 silly get cb [ 200,
+166 silly get   { server: 'nginx/1.10.1',
+166 silly get     'content-type': 'application/json',
+166 silly get     'last-modified': 'Wed, 21 Dec 2016 06:43:38 GMT',
+166 silly get     etag: 'W/"585a249a-f0cd"',
+166 silly get     'content-encoding': 'gzip',
+166 silly get     'cache-control': 'max-age=300',
+166 silly get     'content-length': '12133',
+166 silly get     'accept-ranges': 'bytes',
+166 silly get     date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+166 silly get     via: '1.1 varnish',
+166 silly get     age: '90',
+166 silly get     connection: 'keep-alive',
+166 silly get     'x-served-by': 'cache-itm7426-ITM',
+166 silly get     'x-cache': 'HIT',
+166 silly get     'x-cache-hits': '108',
+166 silly get     'x-timer': 'S1482372007.798846,VS0,VE0',
+166 silly get     vary: 'Accept-Encoding' } ]
+167 verbose get saving debug to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+168 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+169 silly resolveWithNewModule debug@2.5.1 checking installable status
+170 silly cache add args [ 'debug@2', null ]
+171 verbose cache add spec debug@2
+172 silly cache add parsed spec Result {
+172 silly cache add   raw: 'debug@2',
+172 silly cache add   scope: null,
+172 silly cache add   escapedName: 'debug',
+172 silly cache add   name: 'debug',
+172 silly cache add   rawSpec: '2',
+172 silly cache add   spec: '>=2.0.0 <3.0.0',
+172 silly cache add   type: 'range' }
+173 silly addNamed debug@>=2.0.0 <3.0.0
+174 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for debug
+175 silly addNameRange { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: false }
+176 silly mapToRegistry name debug
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'debug',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'debug',
+179 silly mapToRegistry   name: 'debug',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/debug
+181 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+182 verbose get https://registry.npmjs.org/debug not expired, no request
+183 silly addNameRange number 2 { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: true }
+184 silly addNameRange versions [ 'debug',
+184 silly addNameRange   [ '0.0.1',
+184 silly addNameRange     '0.1.0',
+184 silly addNameRange     '0.2.0',
+184 silly addNameRange     '0.3.0',
+184 silly addNameRange     '0.4.0',
+184 silly addNameRange     '0.4.1',
+184 silly addNameRange     '0.5.0',
+184 silly addNameRange     '0.6.0',
+184 silly addNameRange     '0.7.0',
+184 silly addNameRange     '0.7.1',
+184 silly addNameRange     '0.7.2',
+184 silly addNameRange     '0.7.3',
+184 silly addNameRange     '0.7.4',
+184 silly addNameRange     '0.8.0',
+184 silly addNameRange     '0.8.1',
+184 silly addNameRange     '1.0.0',
+184 silly addNameRange     '1.0.1',
+184 silly addNameRange     '1.0.2',
+184 silly addNameRange     '1.0.3',
+184 silly addNameRange     '1.0.4',
+184 silly addNameRange     '2.0.0',
+184 silly addNameRange     '2.1.0',
+184 silly addNameRange     '2.1.1',
+184 silly addNameRange     '2.1.2',
+184 silly addNameRange     '2.1.3',
+184 silly addNameRange     '2.2.0',
+184 silly addNameRange     '2.3.0',
+184 silly addNameRange     '2.3.1',
+184 silly addNameRange     '2.3.2',
+184 silly addNameRange     '2.3.3',
+184 silly addNameRange     '2.4.0',
+184 silly addNameRange     '2.4.1',
+184 silly addNameRange     '2.4.2',
+184 silly addNameRange     '2.4.3',
+184 silly addNameRange     '2.4.4',
+184 silly addNameRange     '2.4.5',
+184 silly addNameRange     '2.5.0',
+184 silly addNameRange     '2.5.1' ] ]
+185 silly addNamed debug@2.5.1
+186 verbose addNamed "2.5.1" is a plain semver version for debug
+187 silly mapToRegistry name debug
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry data Result {
+190 silly mapToRegistry   raw: 'debug',
+190 silly mapToRegistry   scope: null,
+190 silly mapToRegistry   escapedName: 'debug',
+190 silly mapToRegistry   name: 'debug',
+190 silly mapToRegistry   rawSpec: '',
+190 silly mapToRegistry   spec: 'latest',
+190 silly mapToRegistry   type: 'tag' }
+191 silly mapToRegistry uri https://registry.npmjs.org/debug
+192 verbose addRemoteTarball https://registry.npmjs.org/debug/-/debug-2.5.1.tgz not in flight; adding
+193 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.5.1.tgz',
+193 verbose addRemoteTarball   '9107bb4a506052ec2a02314bc606313ed2b921c1' ]
+194 info retry fetch attempt 1 at 10:00:08 AM
+195 info attempt registry request try #1 at 10:00:08 AM
+196 http fetch GET https://registry.npmjs.org/debug/-/debug-2.5.1.tgz
+197 http 200 https://registry.npmjs.org/nan
+198 verbose headers { server: 'nginx/1.10.1',
+198 verbose headers   'content-type': 'application/json',
+198 verbose headers   'last-modified': 'Wed, 21 Dec 2016 18:49:51 GMT',
+198 verbose headers   etag: 'W/"585acecf-1d7db"',
+198 verbose headers   'content-encoding': 'gzip',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   'content-length': '14296',
+198 verbose headers   'accept-ranges': 'bytes',
+198 verbose headers   date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+198 verbose headers   via: '1.1 varnish',
+198 verbose headers   age: '75',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+198 verbose headers   'x-cache': 'HIT',
+198 verbose headers   'x-cache-hits': '1',
+198 verbose headers   'x-timer': 'S1482372007.808241,VS0,VE0',
+198 verbose headers   vary: 'Accept-Encoding' }
+199 silly get cb [ 200,
+199 silly get   { server: 'nginx/1.10.1',
+199 silly get     'content-type': 'application/json',
+199 silly get     'last-modified': 'Wed, 21 Dec 2016 18:49:51 GMT',
+199 silly get     etag: 'W/"585acecf-1d7db"',
+199 silly get     'content-encoding': 'gzip',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     'content-length': '14296',
+199 silly get     'accept-ranges': 'bytes',
+199 silly get     date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     age: '75',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-itm7426-ITM',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '1',
+199 silly get     'x-timer': 'S1482372007.808241,VS0,VE0',
+199 silly get     vary: 'Accept-Encoding' } ]
+200 verbose get saving nan to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+201 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+202 http fetch 200 https://registry.npmjs.org/debug/-/debug-2.5.1.tgz
+203 http 200 https://registry.npmjs.org/ref
+204 verbose headers { server: 'nginx/1.10.1',
+204 verbose headers   'content-type': 'application/json',
+204 verbose headers   'last-modified': 'Thu, 03 Nov 2016 17:55:38 GMT',
+204 verbose headers   etag: 'W/"581b7a1a-ed06"',
+204 verbose headers   'content-encoding': 'gzip',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   'content-length': '7461',
+204 verbose headers   'accept-ranges': 'bytes',
+204 verbose headers   date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+204 verbose headers   via: '1.1 varnish',
+204 verbose headers   age: '0',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+204 verbose headers   'x-cache': 'MISS',
+204 verbose headers   'x-cache-hits': '0',
+204 verbose headers   'x-timer': 'S1482372007.799164,VS0,VE148',
+204 verbose headers   vary: 'Accept-Encoding' }
+205 silly get cb [ 200,
+205 silly get   { server: 'nginx/1.10.1',
+205 silly get     'content-type': 'application/json',
+205 silly get     'last-modified': 'Thu, 03 Nov 2016 17:55:38 GMT',
+205 silly get     etag: 'W/"581b7a1a-ed06"',
+205 silly get     'content-encoding': 'gzip',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     'content-length': '7461',
+205 silly get     'accept-ranges': 'bytes',
+205 silly get     date: 'Thu, 22 Dec 2016 02:00:07 GMT',
+205 silly get     via: '1.1 varnish',
+205 silly get     age: '0',
+205 silly get     connection: 'keep-alive',
+205 silly get     'x-served-by': 'cache-itm7421-ITM',
+205 silly get     'x-cache': 'MISS',
+205 silly get     'x-cache-hits': '0',
+205 silly get     'x-timer': 'S1482372007.799164,VS0,VE148',
+205 silly get     vary: 'Accept-Encoding' } ]
+206 verbose get saving ref to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\ref\.cache.json
+207 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+208 silly fetchAndShaCheck shasum 9107bb4a506052ec2a02314bc606313ed2b921c1
+209 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\debug\-\debug-2.5.1.tgz not in flight; adding
+210 verbose addTmpTarball already have metadata; skipping unpack for debug@2.5.1
+211 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+212 silly resolveWithNewModule nan@2.5.0 checking installable status
+213 silly cache add args [ 'nan@2', null ]
+214 verbose cache add spec nan@2
+215 silly cache add parsed spec Result {
+215 silly cache add   raw: 'nan@2',
+215 silly cache add   scope: null,
+215 silly cache add   escapedName: 'nan',
+215 silly cache add   name: 'nan',
+215 silly cache add   rawSpec: '2',
+215 silly cache add   spec: '>=2.0.0 <3.0.0',
+215 silly cache add   type: 'range' }
+216 silly addNamed nan@>=2.0.0 <3.0.0
+217 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for nan
+218 silly addNameRange { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: false }
+219 silly mapToRegistry name nan
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry data Result {
+222 silly mapToRegistry   raw: 'nan',
+222 silly mapToRegistry   scope: null,
+222 silly mapToRegistry   escapedName: 'nan',
+222 silly mapToRegistry   name: 'nan',
+222 silly mapToRegistry   rawSpec: '',
+222 silly mapToRegistry   spec: 'latest',
+222 silly mapToRegistry   type: 'tag' }
+223 silly mapToRegistry uri https://registry.npmjs.org/nan
+224 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+225 verbose get https://registry.npmjs.org/nan not expired, no request
+226 silly addNameRange number 2 { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: true }
+227 silly addNameRange versions [ 'nan',
+227 silly addNameRange   [ '0.3.0-wip',
+227 silly addNameRange     '0.3.0-wip2',
+227 silly addNameRange     '0.3.0',
+227 silly addNameRange     '0.3.1',
+227 silly addNameRange     '0.3.2',
+227 silly addNameRange     '0.4.0',
+227 silly addNameRange     '0.4.1',
+227 silly addNameRange     '0.4.2',
+227 silly addNameRange     '0.4.3',
+227 silly addNameRange     '0.4.4',
+227 silly addNameRange     '0.5.0',
+227 silly addNameRange     '0.5.1',
+227 silly addNameRange     '0.5.2',
+227 silly addNameRange     '0.6.0',
+227 silly addNameRange     '0.7.0',
+227 silly addNameRange     '0.7.1',
+227 silly addNameRange     '0.8.0',
+227 silly addNameRange     '1.0.0',
+227 silly addNameRange     '1.1.0',
+227 silly addNameRange     '1.1.1',
+227 silly addNameRange     '1.1.2',
+227 silly addNameRange     '1.2.0',
+227 silly addNameRange     '1.3.0',
+227 silly addNameRange     '1.4.0',
+227 silly addNameRange     '1.4.1',
+227 silly addNameRange     '1.5.0',
+227 silly addNameRange     '1.4.2',
+227 silly addNameRange     '1.4.3',
+227 silly addNameRange     '1.5.1',
+227 silly addNameRange     '1.5.2',
+227 silly addNameRange     '1.6.0',
+227 silly addNameRange     '1.5.3',
+227 silly addNameRange     '1.6.1',
+227 silly addNameRange     '1.6.2',
+227 silly addNameRange     '1.7.0',
+227 silly addNameRange     '1.8.0',
+227 silly addNameRange     '1.8.1',
+227 silly addNameRange     '1.8.2',
+227 silly addNameRange     '1.8.3',
+227 silly addNameRange     '1.8.4',
+227 silly addNameRange     '1.9.0',
+227 silly addNameRange     '2.0.0',
+227 silly addNameRange     '2.0.1',
+227 silly addNameRange     '2.0.2',
+227 silly addNameRange     '2.0.3',
+227 silly addNameRange     '2.0.4',
+227 silly addNameRange     '2.0.5',
+227 silly addNameRange     '2.0.6',
+227 silly addNameRange     '2.0.7',
+227 silly addNameRange     '2.0.8',
+227 silly addNameRange     '2.0.9',
+227 silly addNameRange     '2.1.0',
+227 silly addNameRange     '2.2.0',
+227 silly addNameRange     '2.2.1',
+227 silly addNameRange     '2.3.0',
+227 silly addNameRange     '2.3.1',
+227 silly addNameRange     '2.3.2',
+227 silly addNameRange     '2.3.3',
+227 silly addNameRange     '2.3.4',
+227 silly addNameRange     '2.3.5',
+227 silly addNameRange     '2.4.0',
+227 silly addNameRange     '2.5.0' ] ]
+228 silly addNamed nan@2.5.0
+229 verbose addNamed "2.5.0" is a plain semver version for nan
+230 silly mapToRegistry name nan
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: 'nan',
+233 silly mapToRegistry   scope: null,
+233 silly mapToRegistry   escapedName: 'nan',
+233 silly mapToRegistry   name: 'nan',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri https://registry.npmjs.org/nan
+235 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.5.0.tgz not in flight; adding
+236 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.5.0.tgz',
+236 verbose addRemoteTarball   'aa8f1e34531d807e9e27755b234b4a6ec0c152a8' ]
+237 silly resolveWithNewModule ref@1.3.3 checking installable status
+238 silly cache add args [ 'ref@1', null ]
+239 verbose cache add spec ref@1
+240 silly cache add parsed spec Result {
+240 silly cache add   raw: 'ref@1',
+240 silly cache add   scope: null,
+240 silly cache add   escapedName: 'ref',
+240 silly cache add   name: 'ref',
+240 silly cache add   rawSpec: '1',
+240 silly cache add   spec: '>=1.0.0 <2.0.0',
+240 silly cache add   type: 'range' }
+241 silly addNamed ref@>=1.0.0 <2.0.0
+242 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ref
+243 silly addNameRange { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: false }
+244 silly mapToRegistry name ref
+245 silly mapToRegistry using default registry
+246 silly mapToRegistry registry https://registry.npmjs.org/
+247 silly mapToRegistry data Result {
+247 silly mapToRegistry   raw: 'ref',
+247 silly mapToRegistry   scope: null,
+247 silly mapToRegistry   escapedName: 'ref',
+247 silly mapToRegistry   name: 'ref',
+247 silly mapToRegistry   rawSpec: '',
+247 silly mapToRegistry   spec: 'latest',
+247 silly mapToRegistry   type: 'tag' }
+248 silly mapToRegistry uri https://registry.npmjs.org/ref
+249 verbose addNameRange registry:https://registry.npmjs.org/ref not in flight; fetching
+250 info retry fetch attempt 1 at 10:00:08 AM
+251 info attempt registry request try #1 at 10:00:08 AM
+252 http fetch GET https://registry.npmjs.org/nan/-/nan-2.5.0.tgz
+253 silly cache afterAdd debug@2.5.1
+254 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\debug\2.5.1\package\package.json not in flight; writing
+255 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+256 verbose get https://registry.npmjs.org/ref not expired, no request
+257 silly addNameRange number 2 { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: true }
+258 silly addNameRange versions [ 'ref',
+258 silly addNameRange   [ '0.0.1',
+258 silly addNameRange     '0.0.2',
+258 silly addNameRange     '0.0.3',
+258 silly addNameRange     '0.0.4',
+258 silly addNameRange     '0.0.5',
+258 silly addNameRange     '0.0.6',
+258 silly addNameRange     '0.0.7',
+258 silly addNameRange     '0.0.8',
+258 silly addNameRange     '0.0.9',
+258 silly addNameRange     '0.0.10',
+258 silly addNameRange     '0.0.11',
+258 silly addNameRange     '0.0.12',
+258 silly addNameRange     '0.0.13',
+258 silly addNameRange     '0.0.14',
+258 silly addNameRange     '0.0.15',
+258 silly addNameRange     '0.0.16',
+258 silly addNameRange     '0.0.17',
+258 silly addNameRange     '0.0.18',
+258 silly addNameRange     '0.0.19',
+258 silly addNameRange     '0.0.20',
+258 silly addNameRange     '0.1.0',
+258 silly addNameRange     '0.1.1',
+258 silly addNameRange     '0.1.2',
+258 silly addNameRange     '0.1.3',
+258 silly addNameRange     '0.2.0',
+258 silly addNameRange     '0.2.1',
+258 silly addNameRange     '0.2.2',
+258 silly addNameRange     '0.2.3',
+258 silly addNameRange     '0.3.0',
+258 silly addNameRange     '0.3.1',
+258 silly addNameRange     '0.3.2',
+258 silly addNameRange     '0.3.3',
+258 silly addNameRange     '0.3.4',
+258 silly addNameRange     '0.3.5',
+258 silly addNameRange     '1.0.0',
+258 silly addNameRange     '1.0.1',
+258 silly addNameRange     '1.0.2',
+258 silly addNameRange     '1.1.0',
+258 silly addNameRange     '1.1.1',
+258 silly addNameRange     '1.1.2',
+258 silly addNameRange     '1.1.3',
+258 silly addNameRange     '1.2.0',
+258 silly addNameRange     '1.3.0',
+258 silly addNameRange     '1.3.1',
+258 silly addNameRange     '1.3.2',
+258 silly addNameRange     '1.3.3' ] ]
+259 silly addNamed ref@1.3.3
+260 verbose addNamed "1.3.3" is a plain semver version for ref
+261 silly mapToRegistry name ref
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry data Result {
+264 silly mapToRegistry   raw: 'ref',
+264 silly mapToRegistry   scope: null,
+264 silly mapToRegistry   escapedName: 'ref',
+264 silly mapToRegistry   name: 'ref',
+264 silly mapToRegistry   rawSpec: '',
+264 silly mapToRegistry   spec: 'latest',
+264 silly mapToRegistry   type: 'tag' }
+265 silly mapToRegistry uri https://registry.npmjs.org/ref
+266 verbose addRemoteTarball https://registry.npmjs.org/ref/-/ref-1.3.3.tgz not in flight; adding
+267 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref/-/ref-1.3.3.tgz',
+267 verbose addRemoteTarball   '116d1ef64f2bc56d9e54a648cea7332a36b81932' ]
+268 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\debug\2.5.1\package\package.json written
+269 info retry fetch attempt 1 at 10:00:08 AM
+270 info attempt registry request try #1 at 10:00:08 AM
+271 http fetch GET https://registry.npmjs.org/ref/-/ref-1.3.3.tgz
+272 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.5.0.tgz
+273 silly fetchAndShaCheck shasum aa8f1e34531d807e9e27755b234b4a6ec0c152a8
+274 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\nan\-\nan-2.5.0.tgz not in flight; adding
+275 verbose addTmpTarball already have metadata; skipping unpack for nan@2.5.0
+276 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+277 silly cache afterAdd nan@2.5.0
+278 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\nan\2.5.0\package\package.json not in flight; writing
+279 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+280 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\nan\2.5.0\package\package.json written
+281 http 200 https://registry.npmjs.org/ref-struct
+282 verbose headers { server: 'nginx/1.10.1',
+282 verbose headers   'content-type': 'application/json',
+282 verbose headers   'last-modified': 'Wed, 03 Aug 2016 04:26:41 GMT',
+282 verbose headers   etag: 'W/"57a17281-411b"',
+282 verbose headers   'content-encoding': 'gzip',
+282 verbose headers   'cache-control': 'max-age=300',
+282 verbose headers   'content-length': '3539',
+282 verbose headers   'accept-ranges': 'bytes',
+282 verbose headers   date: 'Thu, 22 Dec 2016 02:00:08 GMT',
+282 verbose headers   via: '1.1 varnish',
+282 verbose headers   age: '0',
+282 verbose headers   connection: 'keep-alive',
+282 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+282 verbose headers   'x-cache': 'MISS',
+282 verbose headers   'x-cache-hits': '0',
+282 verbose headers   'x-timer': 'S1482372007.805738,VS0,VE591',
+282 verbose headers   vary: 'Accept-Encoding' }
+283 silly get cb [ 200,
+283 silly get   { server: 'nginx/1.10.1',
+283 silly get     'content-type': 'application/json',
+283 silly get     'last-modified': 'Wed, 03 Aug 2016 04:26:41 GMT',
+283 silly get     etag: 'W/"57a17281-411b"',
+283 silly get     'content-encoding': 'gzip',
+283 silly get     'cache-control': 'max-age=300',
+283 silly get     'content-length': '3539',
+283 silly get     'accept-ranges': 'bytes',
+283 silly get     date: 'Thu, 22 Dec 2016 02:00:08 GMT',
+283 silly get     via: '1.1 varnish',
+283 silly get     age: '0',
+283 silly get     connection: 'keep-alive',
+283 silly get     'x-served-by': 'cache-itm7423-ITM',
+283 silly get     'x-cache': 'MISS',
+283 silly get     'x-cache-hits': '0',
+283 silly get     'x-timer': 'S1482372007.805738,VS0,VE591',
+283 silly get     vary: 'Accept-Encoding' } ]
+284 verbose get saving ref-struct to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\ref-struct\.cache.json
+285 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+286 silly resolveWithNewModule ref-struct@1.1.0 checking installable status
+287 silly cache add args [ 'ref-struct@1', null ]
+288 verbose cache add spec ref-struct@1
+289 silly cache add parsed spec Result {
+289 silly cache add   raw: 'ref-struct@1',
+289 silly cache add   scope: null,
+289 silly cache add   escapedName: 'ref-struct',
+289 silly cache add   name: 'ref-struct',
+289 silly cache add   rawSpec: '1',
+289 silly cache add   spec: '>=1.0.0 <2.0.0',
+289 silly cache add   type: 'range' }
+290 silly addNamed ref-struct@>=1.0.0 <2.0.0
+291 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ref-struct
+292 silly addNameRange { name: 'ref-struct', range: '>=1.0.0 <2.0.0', hasData: false }
+293 silly mapToRegistry name ref-struct
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: 'ref-struct',
+296 silly mapToRegistry   scope: null,
+296 silly mapToRegistry   escapedName: 'ref-struct',
+296 silly mapToRegistry   name: 'ref-struct',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag' }
+297 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+298 verbose addNameRange registry:https://registry.npmjs.org/ref-struct not in flight; fetching
+299 verbose get https://registry.npmjs.org/ref-struct not expired, no request
+300 silly addNameRange number 2 { name: 'ref-struct', range: '>=1.0.0 <2.0.0', hasData: true }
+301 silly addNameRange versions [ 'ref-struct',
+301 silly addNameRange   [ '0.0.1',
+301 silly addNameRange     '0.0.2',
+301 silly addNameRange     '0.0.3',
+301 silly addNameRange     '0.0.4',
+301 silly addNameRange     '0.0.5',
+301 silly addNameRange     '0.0.6',
+301 silly addNameRange     '0.0.7',
+301 silly addNameRange     '1.0.0',
+301 silly addNameRange     '1.0.1',
+301 silly addNameRange     '1.0.2',
+301 silly addNameRange     '1.1.0' ] ]
+302 silly addNamed ref-struct@1.1.0
+303 verbose addNamed "1.1.0" is a plain semver version for ref-struct
+304 silly mapToRegistry name ref-struct
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry data Result {
+307 silly mapToRegistry   raw: 'ref-struct',
+307 silly mapToRegistry   scope: null,
+307 silly mapToRegistry   escapedName: 'ref-struct',
+307 silly mapToRegistry   name: 'ref-struct',
+307 silly mapToRegistry   rawSpec: '',
+307 silly mapToRegistry   spec: 'latest',
+307 silly mapToRegistry   type: 'tag' }
+308 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+309 verbose addRemoteTarball https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz not in flight; adding
+310 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz',
+310 verbose addRemoteTarball   '5d5ee65ad41cefc3a5c5feb40587261e479edc13' ]
+311 info retry fetch attempt 1 at 10:00:09 AM
+312 info attempt registry request try #1 at 10:00:09 AM
+313 http fetch GET https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz
+314 http fetch 200 https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz
+315 silly fetchAndShaCheck shasum 5d5ee65ad41cefc3a5c5feb40587261e479edc13
+316 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\ref-struct\-\ref-struct-1.1.0.tgz not in flight; adding
+317 verbose addTmpTarball already have metadata; skipping unpack for ref-struct@1.1.0
+318 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+319 silly cache afterAdd ref-struct@1.1.0
+320 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json not in flight; writing
+321 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+322 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json written
+323 http fetch 200 https://registry.npmjs.org/ref/-/ref-1.3.3.tgz
+324 silly fetchAndShaCheck shasum 116d1ef64f2bc56d9e54a648cea7332a36b81932
+325 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\ref\-\ref-1.3.3.tgz not in flight; adding
+326 verbose addTmpTarball already have metadata; skipping unpack for ref@1.3.3
+327 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+328 silly cache afterAdd ref@1.3.3
+329 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ref\1.3.3\package\package.json not in flight; writing
+330 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+331 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ref\1.3.3\package\package.json written
+332 silly fetchNamedPackageData ms
+333 silly mapToRegistry name ms
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry data Result {
+336 silly mapToRegistry   raw: 'ms',
+336 silly mapToRegistry   scope: null,
+336 silly mapToRegistry   escapedName: 'ms',
+336 silly mapToRegistry   name: 'ms',
+336 silly mapToRegistry   rawSpec: '',
+336 silly mapToRegistry   spec: 'latest',
+336 silly mapToRegistry   type: 'tag' }
+337 silly mapToRegistry uri https://registry.npmjs.org/ms
+338 verbose request uri https://registry.npmjs.org/ms
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 10:00:09 AM
+341 http request GET https://registry.npmjs.org/ms
+342 http 200 https://registry.npmjs.org/ms
+343 verbose headers { server: 'nginx/1.10.1',
+343 verbose headers   'content-type': 'application/json',
+343 verbose headers   'last-modified': 'Mon, 07 Nov 2016 19:12:24 GMT',
+343 verbose headers   etag: 'W/"5820d218-2c0d"',
+343 verbose headers   'content-encoding': 'gzip',
+343 verbose headers   'cache-control': 'max-age=300',
+343 verbose headers   'content-length': '3047',
+343 verbose headers   'accept-ranges': 'bytes',
+343 verbose headers   date: 'Thu, 22 Dec 2016 02:00:09 GMT',
+343 verbose headers   via: '1.1 varnish',
+343 verbose headers   age: '142',
+343 verbose headers   connection: 'keep-alive',
+343 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+343 verbose headers   'x-cache': 'HIT',
+343 verbose headers   'x-cache-hits': '9',
+343 verbose headers   'x-timer': 'S1482372009.239335,VS0,VE0',
+343 verbose headers   vary: 'Accept-Encoding' }
+344 silly get cb [ 200,
+344 silly get   { server: 'nginx/1.10.1',
+344 silly get     'content-type': 'application/json',
+344 silly get     'last-modified': 'Mon, 07 Nov 2016 19:12:24 GMT',
+344 silly get     etag: 'W/"5820d218-2c0d"',
+344 silly get     'content-encoding': 'gzip',
+344 silly get     'cache-control': 'max-age=300',
+344 silly get     'content-length': '3047',
+344 silly get     'accept-ranges': 'bytes',
+344 silly get     date: 'Thu, 22 Dec 2016 02:00:09 GMT',
+344 silly get     via: '1.1 varnish',
+344 silly get     age: '142',
+344 silly get     connection: 'keep-alive',
+344 silly get     'x-served-by': 'cache-itm7424-ITM',
+344 silly get     'x-cache': 'HIT',
+344 silly get     'x-cache-hits': '9',
+344 silly get     'x-timer': 'S1482372009.239335,VS0,VE0',
+344 silly get     vary: 'Accept-Encoding' } ]
+345 verbose get saving ms to C:\Users\txt_c\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+346 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+347 silly resolveWithNewModule ms@0.7.2 checking installable status
+348 silly cache add args [ 'ms@0.7.2', null ]
+349 verbose cache add spec ms@0.7.2
+350 silly cache add parsed spec Result {
+350 silly cache add   raw: 'ms@0.7.2',
+350 silly cache add   scope: null,
+350 silly cache add   escapedName: 'ms',
+350 silly cache add   name: 'ms',
+350 silly cache add   rawSpec: '0.7.2',
+350 silly cache add   spec: '0.7.2',
+350 silly cache add   type: 'version' }
+351 silly addNamed ms@0.7.2
+352 verbose addNamed "0.7.2" is a plain semver version for ms
+353 silly mapToRegistry name ms
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry data Result {
+356 silly mapToRegistry   raw: 'ms',
+356 silly mapToRegistry   scope: null,
+356 silly mapToRegistry   escapedName: 'ms',
+356 silly mapToRegistry   name: 'ms',
+356 silly mapToRegistry   rawSpec: '',
+356 silly mapToRegistry   spec: 'latest',
+356 silly mapToRegistry   type: 'tag' }
+357 silly mapToRegistry uri https://registry.npmjs.org/ms
+358 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+359 verbose get https://registry.npmjs.org/ms not expired, no request
+360 silly mapToRegistry name ms
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry data Result {
+363 silly mapToRegistry   raw: 'ms',
+363 silly mapToRegistry   scope: null,
+363 silly mapToRegistry   escapedName: 'ms',
+363 silly mapToRegistry   name: 'ms',
+363 silly mapToRegistry   rawSpec: '',
+363 silly mapToRegistry   spec: 'latest',
+363 silly mapToRegistry   type: 'tag' }
+364 silly mapToRegistry uri https://registry.npmjs.org/ms
+365 verbose addRemoteTarball https://registry.npmjs.org/ms/-/ms-0.7.2.tgz not in flight; adding
+366 verbose addRemoteTarball [ 'https://registry.npmjs.org/ms/-/ms-0.7.2.tgz',
+366 verbose addRemoteTarball   'ae25cf2512b3885a1d95d7f037868d8431124765' ]
+367 info retry fetch attempt 1 at 10:00:09 AM
+368 info attempt registry request try #1 at 10:00:09 AM
+369 http fetch GET https://registry.npmjs.org/ms/-/ms-0.7.2.tgz
+370 http fetch 200 https://registry.npmjs.org/ms/-/ms-0.7.2.tgz
+371 silly fetchAndShaCheck shasum ae25cf2512b3885a1d95d7f037868d8431124765
+372 verbose addTmpTarball C:\Users\txt_c\AppData\Local\Temp\npm-7192-94a3b722\registry.npmjs.org\ms\-\ms-0.7.2.tgz not in flight; adding
+373 verbose addTmpTarball already have metadata; skipping unpack for ms@0.7.2
+374 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+375 silly cache afterAdd ms@0.7.2
+376 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ms\0.7.2\package\package.json not in flight; writing
+377 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+378 verbose afterAdd C:\Users\txt_c\AppData\Roaming\npm-cache\ms\0.7.2\package\package.json written
+379 silly loadAllDepsIntoIdealTree Finishing
+380 silly loadIdealTree Finishing
+381 silly currentTree nodeDHT@0.0.1
+381 silly currentTree `-- bencode@0.6.0
+382 silly idealTree nodeDHT@0.0.1
+382 silly idealTree +-- bencode@0.6.0
+382 silly idealTree +-- bindings@1.2.1
+382 silly idealTree +-- debug@2.5.1
+382 silly idealTree +-- ffi@2.2.0
+382 silly idealTree +-- ms@0.7.2
+382 silly idealTree +-- nan@2.5.0
+382 silly idealTree +-- ref-struct@1.1.0
+382 silly idealTree `-- ref@1.3.3
+383 silly generateActionsToTake Starting
+384 silly install generateActionsToTake
+385 silly generateActionsToTake Finishing
+386 silly diffTrees action count 7
+387 silly diffTrees add bindings@1.2.1
+388 silly diffTrees add ms@0.7.2
+389 silly diffTrees add debug@2.5.1
+390 silly diffTrees add nan@2.5.0
+391 silly diffTrees add ref@1.3.3
+392 silly diffTrees add ref-struct@1.1.0
+393 silly diffTrees add ffi@2.2.0
+394 silly decomposeActions action count 56
+395 silly decomposeActions fetch bindings@1.2.1
+396 silly decomposeActions extract bindings@1.2.1
+397 silly decomposeActions test bindings@1.2.1
+398 silly decomposeActions preinstall bindings@1.2.1
+399 silly decomposeActions build bindings@1.2.1
+400 silly decomposeActions install bindings@1.2.1
+401 silly decomposeActions postinstall bindings@1.2.1
+402 silly decomposeActions finalize bindings@1.2.1
+403 silly decomposeActions fetch ms@0.7.2
+404 silly decomposeActions extract ms@0.7.2
+405 silly decomposeActions test ms@0.7.2
+406 silly decomposeActions preinstall ms@0.7.2
+407 silly decomposeActions build ms@0.7.2
+408 silly decomposeActions install ms@0.7.2
+409 silly decomposeActions postinstall ms@0.7.2
+410 silly decomposeActions finalize ms@0.7.2
+411 silly decomposeActions fetch debug@2.5.1
+412 silly decomposeActions extract debug@2.5.1
+413 silly decomposeActions test debug@2.5.1
+414 silly decomposeActions preinstall debug@2.5.1
+415 silly decomposeActions build debug@2.5.1
+416 silly decomposeActions install debug@2.5.1
+417 silly decomposeActions postinstall debug@2.5.1
+418 silly decomposeActions finalize debug@2.5.1
+419 silly decomposeActions fetch nan@2.5.0
+420 silly decomposeActions extract nan@2.5.0
+421 silly decomposeActions test nan@2.5.0
+422 silly decomposeActions preinstall nan@2.5.0
+423 silly decomposeActions build nan@2.5.0
+424 silly decomposeActions install nan@2.5.0
+425 silly decomposeActions postinstall nan@2.5.0
+426 silly decomposeActions finalize nan@2.5.0
+427 silly decomposeActions fetch ref@1.3.3
+428 silly decomposeActions extract ref@1.3.3
+429 silly decomposeActions test ref@1.3.3
+430 silly decomposeActions preinstall ref@1.3.3
+431 silly decomposeActions build ref@1.3.3
+432 silly decomposeActions install ref@1.3.3
+433 silly decomposeActions postinstall ref@1.3.3
+434 silly decomposeActions finalize ref@1.3.3
+435 silly decomposeActions fetch ref-struct@1.1.0
+436 silly decomposeActions extract ref-struct@1.1.0
+437 silly decomposeActions test ref-struct@1.1.0
+438 silly decomposeActions preinstall ref-struct@1.1.0
+439 silly decomposeActions build ref-struct@1.1.0
+440 silly decomposeActions install ref-struct@1.1.0
+441 silly decomposeActions postinstall ref-struct@1.1.0
+442 silly decomposeActions finalize ref-struct@1.1.0
+443 silly decomposeActions fetch ffi@2.2.0
+444 silly decomposeActions extract ffi@2.2.0
+445 silly decomposeActions test ffi@2.2.0
+446 silly decomposeActions preinstall ffi@2.2.0
+447 silly decomposeActions build ffi@2.2.0
+448 silly decomposeActions install ffi@2.2.0
+449 silly decomposeActions postinstall ffi@2.2.0
+450 silly decomposeActions finalize ffi@2.2.0
+451 silly runTopLevelLifecycles Starting
+452 silly executeActions Starting
+453 silly install executeActions
+454 silly doSerial global-install 0
+455 silly doParallel fetch 7
+456 verbose correctMkdir C:\Users\txt_c\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+457 verbose lock using C:\Users\txt_c\AppData\Roaming\npm-cache\_locks\staging-05e73e55956f147d.lock for F:\MYCODE\nodejs\DHT\node_modules\.staging
+458 silly doParallel extract 7
+459 silly extract bindings@1.2.1
+460 silly extract ms@0.7.2
+461 silly extract debug@2.5.1
+462 silly extract nan@2.5.0
+463 silly extract ref@1.3.3
+464 silly extract ref-struct@1.1.0
+465 silly extract ffi@2.2.0
+466 verbose unbuild node_modules\.staging\debug-07519c34
+467 verbose unbuild node_modules\.staging\ms-4ab57d8c
+468 verbose unbuild node_modules\.staging\bindings-85045eb9
+469 verbose unbuild node_modules\.staging\ref-a10a8d65
+470 verbose unbuild node_modules\.staging\nan-a42aab2e
+471 verbose unbuild node_modules\.staging\ref-struct-7d09a9b1
+472 verbose unbuild node_modules\.staging\ffi-e90a3a5c
+473 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34 is being purged from base F:\MYCODE\nodejs\DHT
+474 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34
+475 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c is being purged from base F:\MYCODE\nodejs\DHT
+476 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c
+477 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9 is being purged from base F:\MYCODE\nodejs\DHT
+478 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9
+479 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65 is being purged from base F:\MYCODE\nodejs\DHT
+480 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65
+481 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e is being purged from base F:\MYCODE\nodejs\DHT
+482 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e
+483 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1 is being purged from base F:\MYCODE\nodejs\DHT
+484 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1
+485 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\debug\2.5.1\package.tgz
+486 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34
+487 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34 is being purged
+488 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34
+489 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\ms\0.7.2\package.tgz
+490 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c
+491 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c is being purged
+492 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c
+493 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+494 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9
+495 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9 is being purged
+496 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9
+497 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\ref\1.3.3\package.tgz
+498 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65
+499 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65 is being purged
+500 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65
+501 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\nan\2.5.0\package.tgz
+502 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e
+503 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e is being purged
+504 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e
+505 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\ref-struct\1.1.0\package.tgz
+506 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1
+507 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1 is being purged
+508 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1
+509 silly gunzTarPerm modes [ '777', '666' ]
+510 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c is being purged from base F:\MYCODE\nodejs\DHT
+511 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c
+512 silly gunzTarPerm modes [ '777', '666' ]
+513 silly gunzTarPerm modes [ '777', '666' ]
+514 silly gunzTarPerm modes [ '777', '666' ]
+515 silly gunzTarPerm modes [ '777', '666' ]
+516 silly gunzTarPerm modes [ '777', '666' ]
+517 verbose tar unpack C:\Users\txt_c\AppData\Roaming\npm-cache\ffi\2.2.0\package.tgz
+518 verbose tar unpacking to F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c
+519 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c is being purged
+520 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c
+521 silly gunzTarPerm modes [ '777', '666' ]
+522 silly gunzTarPerm extractEntry package.json
+523 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+524 silly gunzTarPerm extractEntry package.json
+525 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+526 silly gunzTarPerm extractEntry package.json
+527 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+528 silly gunzTarPerm extractEntry package.json
+529 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+530 silly gunzTarPerm extractEntry package.json
+531 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+532 silly gunzTarPerm extractEntry package.json
+533 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+534 silly gunzTarPerm extractEntry package.json
+535 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+536 silly gunzTarPerm extractEntry README.md
+537 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+538 silly gunzTarPerm extractEntry index.js
+539 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+540 silly gunzTarPerm extractEntry .npmignore
+541 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+542 silly gunzTarPerm extractEntry README.md
+543 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+544 silly gunzTarPerm extractEntry README.md
+545 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+546 silly gunzTarPerm extractEntry bindings.js
+547 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+548 silly gunzTarPerm extractEntry .npmignore
+549 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+550 silly gunzTarPerm extractEntry README.md
+551 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+552 silly gunzTarPerm extractEntry .npmignore
+553 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+554 silly gunzTarPerm extractEntry README.md
+555 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+556 silly gunzTarPerm extractEntry README.md
+557 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+558 silly gunzTarPerm extractEntry .npmignore
+559 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+560 silly gunzTarPerm extractEntry README.md
+561 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+562 silly gunzTarPerm extractEntry include_dirs.js
+563 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+564 silly gunzTarPerm extractEntry LICENSE.md
+565 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+566 silly gunzTarPerm extractEntry LICENSE
+567 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+568 silly gunzTarPerm extractEntry karma.conf.js
+569 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+570 silly gunzTarPerm extractEntry appveyor.yml
+571 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+572 silly gunzTarPerm extractEntry binding.gyp
+573 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+574 silly gunzTarPerm extractEntry .jshintrc
+575 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+576 silly gunzTarPerm extractEntry .travis.yml
+577 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+578 silly gunzTarPerm extractEntry nan_converters.h
+579 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+580 silly gunzTarPerm extractEntry CHANGELOG.md
+581 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+582 silly gunzTarPerm extractEntry LICENSE.md
+583 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+584 silly gunzTarPerm extractEntry LICENSE
+585 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+586 silly gunzTarPerm extractEntry binding.gyp
+587 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+588 silly gunzTarPerm extractEntry doc/node_misc.md
+589 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+590 silly gunzTarPerm extractEntry .travis.yml
+591 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+592 silly gunzTarPerm extractEntry docs/compile.js
+593 silly gunzTarPerm modified mode [ 'docs/compile.js', 420, 438 ]
+594 silly gunzTarPerm extractEntry History.md
+595 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+596 silly gunzTarPerm extractEntry appveyor.yml
+597 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+598 silly gunzTarPerm extractEntry node.js
+599 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+600 silly gunzTarPerm extractEntry .jshintrc
+601 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+602 silly gunzTarPerm extractEntry appveyor.yml
+603 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+604 silly gunzTarPerm extractEntry doc/asyncworker.md
+605 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+606 silly gunzTarPerm extractEntry doc/callback.md
+607 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+608 silly gunzTarPerm extractEntry lib/struct.js
+609 silly gunzTarPerm modified mode [ 'lib/struct.js', 420, 438 ]
+610 silly gunzTarPerm extractEntry docs/gh-pages.sh
+611 silly gunzTarPerm modified mode [ 'docs/gh-pages.sh', 493, 511 ]
+612 silly gunzTarPerm extractEntry component.json
+613 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+614 silly gunzTarPerm extractEntry Makefile
+615 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+616 silly gunzTarPerm extractEntry .travis.yml
+617 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+618 silly gunzTarPerm extractEntry deps/libffi/.npmignore
+619 silly gunzTarPerm modified mode [ 'deps/libffi/.npmignore', 420, 438 ]
+620 silly gunzTarPerm extractEntry doc/converters.md
+621 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+622 silly gunzTarPerm extractEntry doc/errors.md
+623 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+624 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+625 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-114x114.png', 420, 438 ]
+626 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+627 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-72x72.png', 420, 438 ]
+628 silly gunzTarPerm extractEntry .coveralls.yml
+629 silly gunzTarPerm modified mode [ '.coveralls.yml', 420, 438 ]
+630 silly gunzTarPerm extractEntry bower.json
+631 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+632 silly gunzTarPerm extractEntry deps/libffi/README
+633 silly gunzTarPerm modified mode [ 'deps/libffi/README', 420, 438 ]
+634 silly gunzTarPerm extractEntry doc/maybe_types.md
+635 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+636 silly gunzTarPerm extractEntry doc/methods.md
+637 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+638 silly gunzTarPerm extractEntry doc/new.md
+639 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+640 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+641 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon.png', 420, 438 ]
+642 silly gunzTarPerm extractEntry docs/images/favicon.ico
+643 silly gunzTarPerm modified mode [ 'docs/images/favicon.ico', 420, 438 ]
+644 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9\node_modules is being purged
+645 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9\node_modules
+646 silly gunzTarPerm extractEntry .eslintrc
+647 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+648 silly gunzTarPerm extractEntry .travis.yml
+649 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+650 silly gunzTarPerm extractEntry deps/libffi/LICENSE
+651 silly gunzTarPerm modified mode [ 'deps/libffi/LICENSE', 420, 438 ]
+652 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libgcj
+653 silly gunzTarPerm modified mode [ 'deps/libffi/ChangeLog.libgcj', 420, 438 ]
+654 silly gunzTarPerm extractEntry doc/buffers.md
+655 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+656 silly gunzTarPerm extractEntry doc/object_wrappers.md
+657 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+658 silly gunzTarPerm extractEntry docs/images/ref.pxm
+659 silly gunzTarPerm modified mode [ 'docs/images/ref.pxm', 420, 438 ]
+660 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c\node_modules is being purged
+661 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c\node_modules
+662 silly gunzTarPerm extractEntry docs/index.jade
+663 silly gunzTarPerm modified mode [ 'docs/index.jade', 420, 438 ]
+664 silly gunzTarPerm extractEntry CHANGELOG.md
+665 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+666 silly gunzTarPerm extractEntry src/browser.js
+667 silly gunzTarPerm modified mode [ 'src/browser.js', 420, 438 ]
+668 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.v1
+669 silly gunzTarPerm modified mode [ 'deps/libffi/ChangeLog.v1', 420, 438 ]
+670 silly gunzTarPerm extractEntry deps/libffi/texinfo.tex
+671 silly gunzTarPerm modified mode [ 'deps/libffi/texinfo.tex', 420, 438 ]
+672 silly gunzTarPerm extractEntry doc/persistent.md
+673 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+674 silly gunzTarPerm extractEntry doc/scopes.md
+675 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+676 silly gunzTarPerm extractEntry src/debug.js
+677 silly gunzTarPerm modified mode [ 'src/debug.js', 420, 438 ]
+678 silly gunzTarPerm extractEntry src/index.js
+679 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+680 silly gunzTarPerm extractEntry deps/libffi/Makefile.am
+681 silly gunzTarPerm modified mode [ 'deps/libffi/Makefile.am', 420, 438 ]
+682 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+683 silly gunzTarPerm modified mode [ 'docs/scripts/jquery-1.7.2.min.js', 420, 438 ]
+684 silly gunzTarPerm extractEntry docs/scripts/main.js
+685 silly gunzTarPerm modified mode [ 'docs/scripts/main.js', 420, 438 ]
+686 silly gunzTarPerm extractEntry doc/script.md
+687 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+688 silly gunzTarPerm extractEntry doc/string_bytes.md
+689 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+690 silly gunzTarPerm extractEntry src/node.js
+691 silly gunzTarPerm modified mode [ 'src/node.js', 420, 438 ]
+692 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+693 silly gunzTarPerm modified mode [ 'docs/stylesheets/base.css', 420, 438 ]
+694 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+695 silly gunzTarPerm modified mode [ 'docs/stylesheets/layout.css', 420, 438 ]
+696 silly gunzTarPerm extractEntry deps/libffi/Makefile.in
+697 silly gunzTarPerm modified mode [ 'deps/libffi/Makefile.in', 420, 438 ]
+698 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libffi
+699 silly gunzTarPerm modified mode [ 'deps/libffi/ChangeLog.libffi', 420, 438 ]
+700 silly gunzTarPerm extractEntry doc/v8_internals.md
+701 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+702 silly gunzTarPerm extractEntry doc/v8_misc.md
+703 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+704 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+705 silly gunzTarPerm modified mode [ 'docs/stylesheets/skeleton.css', 420, 438 ]
+706 silly gunzTarPerm extractEntry lib/ref.js
+707 silly gunzTarPerm modified mode [ 'lib/ref.js', 420, 438 ]
+708 silly gunzTarPerm extractEntry src/binding.cc
+709 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+710 silly gunzTarPerm extractEntry CHANGELOG.md
+711 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+712 silly gunzTarPerm extractEntry test/address.js
+713 silly gunzTarPerm modified mode [ 'test/address.js', 420, 438 ]
+714 silly gunzTarPerm extractEntry test/coerce.js
+715 silly gunzTarPerm modified mode [ 'test/coerce.js', 420, 438 ]
+716 silly gunzTarPerm extractEntry test/int64.js
+717 silly gunzTarPerm modified mode [ 'test/int64.js', 420, 438 ]
+718 silly gunzTarPerm extractEntry test/iojs3issue.js
+719 silly gunzTarPerm modified mode [ 'test/iojs3issue.js', 420, 438 ]
+720 silly gunzTarPerm extractEntry test/isNull.js
+721 silly gunzTarPerm modified mode [ 'test/isNull.js', 420, 438 ]
+722 silly gunzTarPerm extractEntry test/char.js
+723 silly gunzTarPerm modified mode [ 'test/char.js', 420, 438 ]
+724 silly gunzTarPerm extractEntry test/pointer.js
+725 silly gunzTarPerm modified mode [ 'test/pointer.js', 420, 438 ]
+726 silly gunzTarPerm extractEntry test/ref-deref.js
+727 silly gunzTarPerm modified mode [ 'test/ref-deref.js', 420, 438 ]
+728 silly gunzTarPerm extractEntry test/reinterpret.js
+729 silly gunzTarPerm modified mode [ 'test/reinterpret.js', 420, 438 ]
+730 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+731 silly gunzTarPerm modified mode [ 'test/reinterpretUntilZeros.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry test/string.js
+733 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+734 silly gunzTarPerm extractEntry test/bool.js
+735 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+736 silly gunzTarPerm extractEntry test/types.js
+737 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+738 silly gunzTarPerm extractEntry test/alloc.js
+739 silly gunzTarPerm modified mode [ 'test/alloc.js', 420, 438 ]
+740 silly gunzTarPerm extractEntry test/object.js
+741 silly gunzTarPerm modified mode [ 'test/object.js', 420, 438 ]
+742 silly gunzTarPerm extractEntry test/utf16le.bin
+743 silly gunzTarPerm modified mode [ 'test/utf16le.bin', 420, 438 ]
+744 silly gunzTarPerm extractEntry deps/libffi/acinclude.m4
+745 silly gunzTarPerm modified mode [ 'deps/libffi/acinclude.m4', 420, 438 ]
+746 silly gunzTarPerm extractEntry deps/libffi/aclocal.m4
+747 silly gunzTarPerm modified mode [ 'deps/libffi/aclocal.m4', 420, 438 ]
+748 silly gunzTarPerm extractEntry nan.h
+749 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+750 silly gunzTarPerm extractEntry nan_callbacks.h
+751 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+752 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1\node_modules is being purged
+753 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1\node_modules
+754 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+755 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+756 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+757 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+758 silly gunzTarPerm extractEntry deps/libffi/closure.c
+759 silly gunzTarPerm modified mode [ 'deps/libffi/closure.c', 420, 438 ]
+760 silly gunzTarPerm extractEntry deps/libffi/compile
+761 silly gunzTarPerm modified mode [ 'deps/libffi/compile', 493, 511 ]
+762 silly gunzTarPerm extractEntry deps/libffi/config/README
+763 silly gunzTarPerm modified mode [ 'deps/libffi/config/README', 420, 438 ]
+764 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/ffi.h
+765 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/ia32/ffi.h', 420, 438 ]
+766 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+767 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+768 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+769 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+770 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+771 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+772 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+773 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+774 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/fficonfig.h
+775 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/ia32/fficonfig.h', 420, 438 ]
+776 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/ffitarget.h
+777 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/ia32/ffitarget.h', 420, 438 ]
+778 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+779 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+780 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+781 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+782 silly gunzTarPerm extractEntry nan_new.h
+783 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+784 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/ffi.h
+785 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/x64/ffi.h', 420, 438 ]
+786 silly gunzTarPerm extractEntry nan_object_wrap.h
+787 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+788 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/fficonfig.h
+789 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/x64/fficonfig.h', 420, 438 ]
+790 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/ffitarget.h
+791 silly gunzTarPerm modified mode [ 'deps/libffi/config/freebsd/x64/ffitarget.h', 420, 438 ]
+792 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffi.h
+793 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/arm/ffi.h', 420, 438 ]
+794 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/fficonfig.h
+795 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/arm/fficonfig.h', 420, 438 ]
+796 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+797 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+798 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+799 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+800 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffitarget.h
+801 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/arm/ffitarget.h', 420, 438 ]
+802 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/flags.txt
+803 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/arm/flags.txt', 420, 438 ]
+804 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffi.h
+805 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/ia32/ffi.h', 420, 438 ]
+806 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/fficonfig.h
+807 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/ia32/fficonfig.h', 420, 438 ]
+808 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffitarget.h
+809 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/ia32/ffitarget.h', 420, 438 ]
+810 silly gunzTarPerm extractEntry nan_private.h
+811 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+812 silly gunzTarPerm extractEntry nan_string_bytes.h
+813 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+814 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/flags.txt
+815 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/ia32/flags.txt', 420, 438 ]
+816 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffi.h
+817 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/x64/ffi.h', 420, 438 ]
+818 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/fficonfig.h
+819 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/x64/fficonfig.h', 420, 438 ]
+820 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffitarget.h
+821 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/x64/ffitarget.h', 420, 438 ]
+822 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+823 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+824 silly gunzTarPerm extractEntry nan_weak.h
+825 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+826 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/flags.txt
+827 silly gunzTarPerm modified mode [ 'deps/libffi/config/linux/x64/flags.txt', 420, 438 ]
+828 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffi.h
+829 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/ia32/ffi.h', 420, 438 ]
+830 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/fficonfig.h
+831 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/ia32/fficonfig.h', 420, 438 ]
+832 silly gunzTarPerm extractEntry tools/package.json
+833 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+834 silly gunzTarPerm extractEntry tools/README.md
+835 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+836 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34\node_modules is being purged
+837 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34\node_modules
+838 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffitarget.h
+839 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/ia32/ffitarget.h', 420, 438 ]
+840 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/flags.txt
+841 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/ia32/flags.txt', 420, 438 ]
+842 silly gunzTarPerm extractEntry tools/1to2.js
+843 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+844 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffi.h
+845 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/x64/ffi.h', 420, 438 ]
+846 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/fficonfig.h
+847 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/x64/fficonfig.h', 420, 438 ]
+848 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffitarget.h
+849 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/x64/ffitarget.h', 420, 438 ]
+850 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/flags.txt
+851 silly gunzTarPerm modified mode [ 'deps/libffi/config/mac/x64/flags.txt', 420, 438 ]
+852 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffi.h
+853 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/ia32/ffi.h', 420, 438 ]
+854 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/fficonfig.h
+855 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/ia32/fficonfig.h', 420, 438 ]
+856 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffitarget.h
+857 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/ia32/ffitarget.h', 420, 438 ]
+858 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/flags.txt
+859 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/ia32/flags.txt', 420, 438 ]
+860 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffi.h
+861 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/x64/ffi.h', 420, 438 ]
+862 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/fficonfig.h
+863 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/x64/fficonfig.h', 420, 438 ]
+864 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffitarget.h
+865 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/x64/ffitarget.h', 420, 438 ]
+866 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/flags.txt
+867 silly gunzTarPerm modified mode [ 'deps/libffi/config/solaris/x64/flags.txt', 420, 438 ]
+868 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffi.h
+869 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/ia32/ffi.h', 420, 438 ]
+870 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/fficonfig.h
+871 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/ia32/fficonfig.h', 420, 438 ]
+872 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffitarget.h
+873 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/ia32/ffitarget.h', 420, 438 ]
+874 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/flags.txt
+875 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/ia32/flags.txt', 420, 438 ]
+876 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffi.h
+877 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/x64/ffi.h', 420, 438 ]
+878 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/fficonfig.h
+879 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/x64/fficonfig.h', 420, 438 ]
+880 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffitarget.h
+881 silly gunzTarPerm modified mode [ 'deps/libffi/config/win/x64/ffitarget.h', 420, 438 ]
+882 silly gunzTarPerm extractEntry deps/libffi/config.guess
+883 silly gunzTarPerm modified mode [ 'deps/libffi/config.guess', 493, 511 ]
+884 silly gunzTarPerm extractEntry deps/libffi/config.sub
+885 silly gunzTarPerm modified mode [ 'deps/libffi/config.sub', 493, 511 ]
+886 silly gunzTarPerm extractEntry deps/libffi/configure
+887 silly gunzTarPerm modified mode [ 'deps/libffi/configure', 493, 511 ]
+888 silly gunzTarPerm extractEntry deps/libffi/configure.ac
+889 silly gunzTarPerm modified mode [ 'deps/libffi/configure.ac', 420, 438 ]
+890 silly gunzTarPerm extractEntry deps/libffi/configure.host
+891 silly gunzTarPerm modified mode [ 'deps/libffi/configure.host', 420, 438 ]
+892 silly gunzTarPerm extractEntry deps/libffi/depcomp
+893 silly gunzTarPerm modified mode [ 'deps/libffi/depcomp', 493, 511 ]
+894 silly gunzTarPerm extractEntry deps/libffi/ChangeLog
+895 silly gunzTarPerm modified mode [ 'deps/libffi/ChangeLog', 420, 438 ]
+896 silly gunzTarPerm extractEntry deps/libffi/fficonfig.h.in
+897 silly gunzTarPerm modified mode [ 'deps/libffi/fficonfig.h.in', 420, 438 ]
+898 silly gunzTarPerm extractEntry deps/libffi/generate-ios-source-and-headers.py
+899 silly gunzTarPerm modified mode [ 'deps/libffi/generate-ios-source-and-headers.py', 420, 438 ]
+900 silly gunzTarPerm extractEntry deps/libffi/generate-osx-source-and-headers.py
+901 silly gunzTarPerm modified mode [ 'deps/libffi/generate-osx-source-and-headers.py', 420, 438 ]
+902 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.am
+903 silly gunzTarPerm modified mode [ 'deps/libffi/include/Makefile.am', 420, 438 ]
+904 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.in
+905 silly gunzTarPerm modified mode [ 'deps/libffi/include/Makefile.in', 420, 438 ]
+906 silly gunzTarPerm extractEntry deps/libffi/include/ffi.h.in
+907 silly gunzTarPerm modified mode [ 'deps/libffi/include/ffi.h.in', 420, 438 ]
+908 silly gunzTarPerm extractEntry deps/libffi/include/ffi_common.h
+909 silly gunzTarPerm modified mode [ 'deps/libffi/include/ffi_common.h', 420, 438 ]
+910 silly gunzTarPerm extractEntry deps/libffi/install-sh
+911 silly gunzTarPerm modified mode [ 'deps/libffi/install-sh', 493, 511 ]
+912 silly gunzTarPerm extractEntry deps/libffi/libffi.gyp
+913 silly gunzTarPerm modified mode [ 'deps/libffi/libffi.gyp', 420, 438 ]
+914 silly gunzTarPerm extractEntry deps/libffi/libffi.pc.in
+915 silly gunzTarPerm modified mode [ 'deps/libffi/libffi.pc.in', 420, 438 ]
+916 silly gunzTarPerm extractEntry deps/libffi/libffi.xcodeproj/project.pbxproj
+917 silly gunzTarPerm modified mode [ 'deps/libffi/libffi.xcodeproj/project.pbxproj', 420, 438 ]
+918 silly gunzTarPerm extractEntry deps/libffi/libtool-version
+919 silly gunzTarPerm modified mode [ 'deps/libffi/libtool-version', 420, 438 ]
+920 silly gunzTarPerm extractEntry deps/libffi/ltmain.sh
+921 silly gunzTarPerm modified mode [ 'deps/libffi/ltmain.sh', 493, 511 ]
+922 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_archflag.m4
+923 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_gcc_archflag.m4', 420, 438 ]
+924 silly gunzTarPerm extractEntry deps/libffi/m4/asmcfi.m4
+925 silly gunzTarPerm modified mode [ 'deps/libffi/m4/asmcfi.m4', 420, 438 ]
+926 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cflags_warn_all.m4
+927 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_cflags_warn_all.m4', 420, 438 ]
+928 silly gunzTarPerm extractEntry deps/libffi/m4/ax_compiler_vendor.m4
+929 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_compiler_vendor.m4', 420, 438 ]
+930 silly gunzTarPerm extractEntry deps/libffi/m4/ax_configure_args.m4
+931 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_configure_args.m4', 420, 438 ]
+932 silly gunzTarPerm extractEntry deps/libffi/m4/ax_enable_builddir.m4
+933 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_enable_builddir.m4', 420, 438 ]
+934 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cc_maxopt.m4
+935 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_cc_maxopt.m4', 420, 438 ]
+936 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_x86_cpuid.m4
+937 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ax_gcc_x86_cpuid.m4', 420, 438 ]
+938 silly gunzTarPerm extractEntry deps/libffi/m4/libtool.m4
+939 silly gunzTarPerm modified mode [ 'deps/libffi/m4/libtool.m4', 420, 438 ]
+940 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65\node_modules is being purged
+941 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65\node_modules
+942 silly gunzTarPerm extractEntry deps/libffi/m4/ltoptions.m4
+943 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ltoptions.m4', 420, 438 ]
+944 silly gunzTarPerm extractEntry deps/libffi/m4/ltsugar.m4
+945 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ltsugar.m4', 420, 438 ]
+946 silly gunzTarPerm extractEntry deps/libffi/m4/ltversion.m4
+947 silly gunzTarPerm modified mode [ 'deps/libffi/m4/ltversion.m4', 420, 438 ]
+948 silly gunzTarPerm extractEntry deps/libffi/m4/lt~obsolete.m4
+949 silly gunzTarPerm modified mode [ 'deps/libffi/m4/lt~obsolete.m4', 420, 438 ]
+950 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.am
+951 silly gunzTarPerm modified mode [ 'deps/libffi/man/Makefile.am', 420, 438 ]
+952 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e\node_modules is being purged
+953 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e\node_modules
+954 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.in
+955 silly gunzTarPerm modified mode [ 'deps/libffi/man/Makefile.in', 420, 438 ]
+956 silly gunzTarPerm extractEntry deps/libffi/man/ffi.3
+957 silly gunzTarPerm modified mode [ 'deps/libffi/man/ffi.3', 420, 438 ]
+958 silly gunzTarPerm extractEntry deps/libffi/man/ffi_call.3
+959 silly gunzTarPerm modified mode [ 'deps/libffi/man/ffi_call.3', 420, 438 ]
+960 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif.3
+961 silly gunzTarPerm modified mode [ 'deps/libffi/man/ffi_prep_cif.3', 420, 438 ]
+962 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif_var.3
+963 silly gunzTarPerm modified mode [ 'deps/libffi/man/ffi_prep_cif_var.3', 420, 438 ]
+964 silly gunzTarPerm extractEntry deps/libffi/mdate-sh
+965 silly gunzTarPerm modified mode [ 'deps/libffi/mdate-sh', 420, 438 ]
+966 silly gunzTarPerm extractEntry deps/libffi/missing
+967 silly gunzTarPerm modified mode [ 'deps/libffi/missing', 493, 511 ]
+968 silly gunzTarPerm extractEntry deps/libffi/msvcc.sh
+969 silly gunzTarPerm modified mode [ 'deps/libffi/msvcc.sh', 493, 511 ]
+970 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffi.c
+971 silly gunzTarPerm modified mode [ 'deps/libffi/src/mips/ffi.c', 420, 438 ]
+972 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffitarget.h
+973 silly gunzTarPerm modified mode [ 'deps/libffi/src/mips/ffitarget.h', 420, 438 ]
+974 silly gunzTarPerm extractEntry deps/libffi/src/mips/n32.S
+975 silly gunzTarPerm modified mode [ 'deps/libffi/src/mips/n32.S', 420, 438 ]
+976 silly gunzTarPerm extractEntry deps/libffi/src/mips/o32.S
+977 silly gunzTarPerm modified mode [ 'deps/libffi/src/mips/o32.S', 420, 438 ]
+978 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffi.c
+979 silly gunzTarPerm modified mode [ 'deps/libffi/src/alpha/ffi.c', 420, 438 ]
+980 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffitarget.h
+981 silly gunzTarPerm modified mode [ 'deps/libffi/src/alpha/ffitarget.h', 420, 438 ]
+982 silly gunzTarPerm extractEntry deps/libffi/src/alpha/osf.S
+983 silly gunzTarPerm modified mode [ 'deps/libffi/src/alpha/osf.S', 420, 438 ]
+984 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffi.c
+985 silly gunzTarPerm modified mode [ 'deps/libffi/src/avr32/ffi.c', 420, 438 ]
+986 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffitarget.h
+987 silly gunzTarPerm modified mode [ 'deps/libffi/src/avr32/ffitarget.h', 420, 438 ]
+988 silly gunzTarPerm extractEntry deps/libffi/src/avr32/sysv.S
+989 silly gunzTarPerm modified mode [ 'deps/libffi/src/avr32/sysv.S', 420, 438 ]
+990 silly gunzTarPerm extractEntry deps/libffi/src/closures.c
+991 silly gunzTarPerm modified mode [ 'deps/libffi/src/closures.c', 420, 438 ]
+992 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffi.c
+993 silly gunzTarPerm modified mode [ 'deps/libffi/src/cris/ffi.c', 420, 438 ]
+994 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffitarget.h
+995 silly gunzTarPerm modified mode [ 'deps/libffi/src/cris/ffitarget.h', 420, 438 ]
+996 silly gunzTarPerm extractEntry deps/libffi/src/cris/sysv.S
+997 silly gunzTarPerm modified mode [ 'deps/libffi/src/cris/sysv.S', 420, 438 ]
+998 silly gunzTarPerm extractEntry deps/libffi/src/debug.c
+999 silly gunzTarPerm modified mode [ 'deps/libffi/src/debug.c', 420, 438 ]
+1000 silly gunzTarPerm extractEntry deps/libffi/src/dlmalloc.c
+1001 silly gunzTarPerm modified mode [ 'deps/libffi/src/dlmalloc.c', 420, 438 ]
+1002 silly gunzTarPerm extractEntry deps/libffi/src/frv/eabi.S
+1003 silly gunzTarPerm modified mode [ 'deps/libffi/src/frv/eabi.S', 420, 438 ]
+1004 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffi.c
+1005 silly gunzTarPerm modified mode [ 'deps/libffi/src/frv/ffi.c', 420, 438 ]
+1006 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffitarget.h
+1007 silly gunzTarPerm modified mode [ 'deps/libffi/src/frv/ffitarget.h', 420, 438 ]
+1008 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffi.c
+1009 silly gunzTarPerm modified mode [ 'deps/libffi/src/ia64/ffi.c', 420, 438 ]
+1010 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffitarget.h
+1011 silly gunzTarPerm modified mode [ 'deps/libffi/src/ia64/ffitarget.h', 420, 438 ]
+1012 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ia64_flags.h
+1013 silly gunzTarPerm modified mode [ 'deps/libffi/src/ia64/ia64_flags.h', 420, 438 ]
+1014 silly gunzTarPerm extractEntry deps/libffi/src/ia64/unix.S
+1015 silly gunzTarPerm modified mode [ 'deps/libffi/src/ia64/unix.S', 420, 438 ]
+1016 silly gunzTarPerm extractEntry deps/libffi/src/java_raw_api.c
+1017 silly gunzTarPerm modified mode [ 'deps/libffi/src/java_raw_api.c', 420, 438 ]
+1018 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffi.c
+1019 silly gunzTarPerm modified mode [ 'deps/libffi/src/m32r/ffi.c', 420, 438 ]
+1020 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffitarget.h
+1021 silly gunzTarPerm modified mode [ 'deps/libffi/src/m32r/ffitarget.h', 420, 438 ]
+1022 silly gunzTarPerm extractEntry deps/libffi/src/m32r/sysv.S
+1023 silly gunzTarPerm modified mode [ 'deps/libffi/src/m32r/sysv.S', 420, 438 ]
+1024 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffi.c
+1025 silly gunzTarPerm modified mode [ 'deps/libffi/src/m68k/ffi.c', 420, 438 ]
+1026 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffitarget.h
+1027 silly gunzTarPerm modified mode [ 'deps/libffi/src/m68k/ffitarget.h', 420, 438 ]
+1028 silly gunzTarPerm extractEntry deps/libffi/src/m68k/sysv.S
+1029 silly gunzTarPerm modified mode [ 'deps/libffi/src/m68k/sysv.S', 420, 438 ]
+1030 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffi.c
+1031 silly gunzTarPerm modified mode [ 'deps/libffi/src/arm/ffi.c', 420, 438 ]
+1032 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffitarget.h
+1033 silly gunzTarPerm modified mode [ 'deps/libffi/src/arm/ffitarget.h', 420, 438 ]
+1034 silly gunzTarPerm extractEntry deps/libffi/src/arm/gentramp.sh
+1035 silly gunzTarPerm modified mode [ 'deps/libffi/src/arm/gentramp.sh', 493, 511 ]
+1036 silly gunzTarPerm extractEntry deps/libffi/src/arm/sysv.S
+1037 silly gunzTarPerm modified mode [ 'deps/libffi/src/arm/sysv.S', 420, 438 ]
+1038 silly gunzTarPerm extractEntry deps/libffi/src/arm/trampoline.S
+1039 silly gunzTarPerm modified mode [ 'deps/libffi/src/arm/trampoline.S', 420, 438 ]
+1040 silly gunzTarPerm extractEntry deps/libffi/src/moxie/eabi.S
+1041 silly gunzTarPerm modified mode [ 'deps/libffi/src/moxie/eabi.S', 420, 438 ]
+1042 silly gunzTarPerm extractEntry deps/libffi/src/moxie/ffi.c
+1043 silly gunzTarPerm modified mode [ 'deps/libffi/src/moxie/ffi.c', 420, 438 ]
+1044 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffi.c
+1045 silly gunzTarPerm modified mode [ 'deps/libffi/src/pa/ffi.c', 420, 438 ]
+1046 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffitarget.h
+1047 silly gunzTarPerm modified mode [ 'deps/libffi/src/pa/ffitarget.h', 420, 438 ]
+1048 silly gunzTarPerm extractEntry deps/libffi/src/pa/hpux32.S
+1049 silly gunzTarPerm modified mode [ 'deps/libffi/src/pa/hpux32.S', 420, 438 ]
+1050 silly gunzTarPerm extractEntry deps/libffi/src/pa/linux.S
+1051 silly gunzTarPerm modified mode [ 'deps/libffi/src/pa/linux.S', 420, 438 ]
+1052 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi_darwin.c
+1053 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/ffi_darwin.c', 420, 438 ]
+1054 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix.S
+1055 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/aix.S', 420, 438 ]
+1056 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/asm.h
+1057 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/asm.h', 420, 438 ]
+1058 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin.S
+1059 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/darwin.S', 420, 438 ]
+1060 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin_closure.S
+1061 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/darwin_closure.S', 420, 438 ]
+1062 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi.c
+1063 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/ffi.c', 420, 438 ]
+1064 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix_closure.S
+1065 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/aix_closure.S', 420, 438 ]
+1066 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffitarget.h
+1067 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/ffitarget.h', 420, 438 ]
+1068 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64.S
+1069 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/linux64.S', 420, 438 ]
+1070 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64_closure.S
+1071 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/linux64_closure.S', 420, 438 ]
+1072 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ppc_closure.S
+1073 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/ppc_closure.S', 420, 438 ]
+1074 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/sysv.S
+1075 silly gunzTarPerm modified mode [ 'deps/libffi/src/powerpc/sysv.S', 420, 438 ]
+1076 silly gunzTarPerm extractEntry deps/libffi/src/prep_cif.c
+1077 silly gunzTarPerm modified mode [ 'deps/libffi/src/prep_cif.c', 420, 438 ]
+1078 silly gunzTarPerm extractEntry deps/libffi/src/raw_api.c
+1079 silly gunzTarPerm modified mode [ 'deps/libffi/src/raw_api.c', 420, 438 ]
+1080 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffi.c
+1081 silly gunzTarPerm modified mode [ 'deps/libffi/src/s390/ffi.c', 420, 438 ]
+1082 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffitarget.h
+1083 silly gunzTarPerm modified mode [ 'deps/libffi/src/s390/ffitarget.h', 420, 438 ]
+1084 silly gunzTarPerm extractEntry deps/libffi/src/s390/sysv.S
+1085 silly gunzTarPerm modified mode [ 'deps/libffi/src/s390/sysv.S', 420, 438 ]
+1086 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffi.c
+1087 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh/ffi.c', 420, 438 ]
+1088 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffitarget.h
+1089 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh/ffitarget.h', 420, 438 ]
+1090 silly gunzTarPerm extractEntry deps/libffi/src/sh/sysv.S
+1091 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh/sysv.S', 420, 438 ]
+1092 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffi.c
+1093 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh64/ffi.c', 420, 438 ]
+1094 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffitarget.h
+1095 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh64/ffitarget.h', 420, 438 ]
+1096 silly gunzTarPerm extractEntry deps/libffi/src/sh64/sysv.S
+1097 silly gunzTarPerm modified mode [ 'deps/libffi/src/sh64/sysv.S', 420, 438 ]
+1098 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffi.c
+1099 silly gunzTarPerm modified mode [ 'deps/libffi/src/sparc/ffi.c', 420, 438 ]
+1100 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffitarget.h
+1101 silly gunzTarPerm modified mode [ 'deps/libffi/src/sparc/ffitarget.h', 420, 438 ]
+1102 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v8.S
+1103 silly gunzTarPerm modified mode [ 'deps/libffi/src/sparc/v8.S', 420, 438 ]
+1104 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v9.S
+1105 silly gunzTarPerm modified mode [ 'deps/libffi/src/sparc/v9.S', 420, 438 ]
+1106 silly gunzTarPerm extractEntry deps/libffi/src/types.c
+1107 silly gunzTarPerm modified mode [ 'deps/libffi/src/types.c', 420, 438 ]
+1108 silly gunzTarPerm extractEntry deps/libffi/src/x86/sysv.S
+1109 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/sysv.S', 420, 438 ]
+1110 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin.S
+1111 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/darwin.S', 420, 438 ]
+1112 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi.c
+1113 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/ffi.c', 420, 438 ]
+1114 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi64.c
+1115 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/ffi64.c', 420, 438 ]
+1116 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffitarget.h
+1117 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/ffitarget.h', 420, 438 ]
+1118 silly gunzTarPerm extractEntry deps/libffi/src/x86/freebsd.S
+1119 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/freebsd.S', 420, 438 ]
+1120 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin64.S
+1121 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/darwin64.S', 420, 438 ]
+1122 silly gunzTarPerm extractEntry deps/libffi/src/x86/unix64.S
+1123 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/unix64.S', 420, 438 ]
+1124 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.S
+1125 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/win32.S', 420, 438 ]
+1126 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.asm
+1127 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/win32.asm', 420, 438 ]
+1128 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.S
+1129 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/win64.S', 420, 438 ]
+1130 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.asm
+1131 silly gunzTarPerm modified mode [ 'deps/libffi/src/x86/win64.asm', 493, 511 ]
+1132 silly gunzTarPerm extractEntry deps/libffi/test.c
+1133 silly gunzTarPerm modified mode [ 'deps/libffi/test.c', 420, 438 ]
+1134 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.am
+1135 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/Makefile.am', 420, 438 ]
+1136 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.in
+1137 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/Makefile.in', 420, 438 ]
+1138 silly gunzTarPerm extractEntry deps/libffi/testsuite/config/default.exp
+1139 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/config/default.exp', 420, 438 ]
+1140 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/libffi.exp
+1141 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/lib/libffi.exp', 420, 438 ]
+1142 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/target-libpath.exp
+1143 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/lib/target-libpath.exp', 420, 438 ]
+1144 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/wrapper.exp
+1145 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/lib/wrapper.exp', 420, 438 ]
+1146 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ulonglong.c
+1147 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_ulonglong.c', 420, 438 ]
+1148 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/call.exp
+1149 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/call.exp', 420, 438 ]
+1150 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn1.c
+1151 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn1.c', 420, 438 ]
+1152 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn2.c
+1153 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn2.c', 420, 438 ]
+1154 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn3.c
+1155 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn3.c', 420, 438 ]
+1156 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn4.c
+1157 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn4.c', 420, 438 ]
+1158 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn5.c
+1159 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn5.c', 420, 438 ]
+1160 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn6.c
+1161 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn6.c', 420, 438 ]
+1162 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_loc_fn0.c
+1163 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_loc_fn0.c',
+1163 silly gunzTarPerm   420,
+1163 silly gunzTarPerm   438 ]
+1164 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_stdcall.c
+1165 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_stdcall.c',
+1165 silly gunzTarPerm   420,
+1165 silly gunzTarPerm   438 ]
+1166 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_thiscall.c
+1167 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_thiscall.c',
+1167 silly gunzTarPerm   420,
+1167 silly gunzTarPerm   438 ]
+1168 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_12byte.c
+1169 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_12byte.c', 420, 438 ]
+1170 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_16byte.c
+1171 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_16byte.c', 420, 438 ]
+1172 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_18byte.c
+1173 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_18byte.c', 420, 438 ]
+1174 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_19byte.c
+1175 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_19byte.c', 420, 438 ]
+1176 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_1_1byte.c
+1177 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_1_1byte.c', 420, 438 ]
+1178 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte.c
+1179 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_20byte.c', 420, 438 ]
+1180 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte1.c
+1181 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_20byte1.c', 420, 438 ]
+1182 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_24byte.c
+1183 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_24byte.c', 420, 438 ]
+1184 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_2byte.c
+1185 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_2byte.c', 420, 438 ]
+1186 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3_1byte.c
+1187 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_3_1byte.c', 420, 438 ]
+1188 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte1.c
+1189 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_3byte1.c', 420, 438 ]
+1190 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte2.c
+1191 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_3byte2.c', 420, 438 ]
+1192 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4_1byte.c
+1193 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_4_1byte.c', 420, 438 ]
+1194 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4byte.c
+1195 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_4byte.c', 420, 438 ]
+1196 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5_1_byte.c
+1197 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_5_1_byte.c', 420, 438 ]
+1198 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5byte.c
+1199 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_5byte.c', 420, 438 ]
+1200 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_64byte.c
+1201 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_64byte.c', 420, 438 ]
+1202 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6_1_byte.c
+1203 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_6_1_byte.c', 420, 438 ]
+1204 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6byte.c
+1205 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_6byte.c', 420, 438 ]
+1206 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7_1_byte.c
+1207 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_7_1_byte.c', 420, 438 ]
+1208 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7byte.c
+1209 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_7byte.c', 420, 438 ]
+1210 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_8byte.c
+1211 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_8byte.c', 420, 438 ]
+1212 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte1.c
+1213 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_9byte1.c', 420, 438 ]
+1214 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte2.c
+1215 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_9byte2.c', 420, 438 ]
+1216 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_double.c
+1217 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_double.c',
+1217 silly gunzTarPerm   420,
+1217 silly gunzTarPerm   438 ]
+1218 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_float.c
+1219 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_float.c',
+1219 silly gunzTarPerm   420,
+1219 silly gunzTarPerm   438 ]
+1220 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble.c
+1221 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_longdouble.c',
+1221 silly gunzTarPerm   420,
+1221 silly gunzTarPerm   438 ]
+1222 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split.c
+1223 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_longdouble_split.c',
+1223 silly gunzTarPerm   420,
+1223 silly gunzTarPerm   438 ]
+1224 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split2.c
+1225 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_longdouble_split2.c',
+1225 silly gunzTarPerm   420,
+1225 silly gunzTarPerm   438 ]
+1226 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_pointer.c
+1227 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_pointer.c',
+1227 silly gunzTarPerm   420,
+1227 silly gunzTarPerm   438 ]
+1228 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint16.c
+1229 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_sint16.c',
+1229 silly gunzTarPerm   420,
+1229 silly gunzTarPerm   438 ]
+1230 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint32.c
+1231 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_sint32.c',
+1231 silly gunzTarPerm   420,
+1231 silly gunzTarPerm   438 ]
+1232 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint64.c
+1233 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_sint64.c',
+1233 silly gunzTarPerm   420,
+1233 silly gunzTarPerm   438 ]
+1234 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint16.c
+1235 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_uint16.c',
+1235 silly gunzTarPerm   420,
+1235 silly gunzTarPerm   438 ]
+1236 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint32.c
+1237 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_uint32.c',
+1237 silly gunzTarPerm   420,
+1237 silly gunzTarPerm   438 ]
+1238 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint64.c
+1239 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_align_uint64.c',
+1239 silly gunzTarPerm   420,
+1239 silly gunzTarPerm   438 ]
+1240 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_dbls_struct.c
+1241 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_dbls_struct.c',
+1241 silly gunzTarPerm   420,
+1241 silly gunzTarPerm   438 ]
+1242 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double.c
+1243 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_double.c', 420, 438 ]
+1244 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double_va.c
+1245 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_double_va.c', 420, 438 ]
+1246 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_float.c
+1247 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_float.c', 420, 438 ]
+1248 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble.c
+1249 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_longdouble.c',
+1249 silly gunzTarPerm   420,
+1249 silly gunzTarPerm   438 ]
+1250 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble_va.c
+1251 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_longdouble_va.c',
+1251 silly gunzTarPerm   420,
+1251 silly gunzTarPerm   438 ]
+1252 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_schar.c
+1253 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_schar.c',
+1253 silly gunzTarPerm   420,
+1253 silly gunzTarPerm   438 ]
+1254 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshort.c
+1255 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_sshort.c',
+1255 silly gunzTarPerm   420,
+1255 silly gunzTarPerm   438 ]
+1256 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshortchar.c
+1257 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_sshortchar.c',
+1257 silly gunzTarPerm   420,
+1257 silly gunzTarPerm   438 ]
+1258 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_uchar.c
+1259 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_uchar.c',
+1259 silly gunzTarPerm   420,
+1259 silly gunzTarPerm   438 ]
+1260 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushort.c
+1261 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_ushort.c',
+1261 silly gunzTarPerm   420,
+1261 silly gunzTarPerm   438 ]
+1262 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushortchar.c
+1263 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_multi_ushortchar.c',
+1263 silly gunzTarPerm   420,
+1263 silly gunzTarPerm   438 ]
+1264 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer.c
+1265 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_pointer.c', 420, 438 ]
+1266 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer_stack.c
+1267 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_pointer_stack.c',
+1267 silly gunzTarPerm   420,
+1267 silly gunzTarPerm   438 ]
+1268 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_schar.c
+1269 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_schar.c', 420, 438 ]
+1270 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sint.c
+1271 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_sint.c', 420, 438 ]
+1272 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sshort.c
+1273 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_sshort.c', 420, 438 ]
+1274 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uchar.c
+1275 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_uchar.c', 420, 438 ]
+1276 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uint.c
+1277 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_uint.c', 420, 438 ]
+1278 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn0.c
+1279 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/closure_fn0.c', 420, 438 ]
+1280 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ushort.c
+1281 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/cls_ushort.c', 420, 438 ]
+1282 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_abi.c
+1283 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/err_bad_abi.c', 420, 438 ]
+1284 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_typedef.c
+1285 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/err_bad_typedef.c',
+1285 silly gunzTarPerm   420,
+1285 silly gunzTarPerm   438 ]
+1286 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis1_win32.c
+1287 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/fastthis1_win32.c',
+1287 silly gunzTarPerm   420,
+1287 silly gunzTarPerm   438 ]
+1288 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis2_win32.c
+1289 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/fastthis2_win32.c',
+1289 silly gunzTarPerm   420,
+1289 silly gunzTarPerm   438 ]
+1290 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis3_win32.c
+1291 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/fastthis3_win32.c',
+1291 silly gunzTarPerm   420,
+1291 silly gunzTarPerm   438 ]
+1292 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/ffitest.h
+1293 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/ffitest.h', 420, 438 ]
+1294 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float.c
+1295 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float.c', 420, 438 ]
+1296 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float1.c
+1297 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float1.c', 420, 438 ]
+1298 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float2.c
+1299 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float2.c', 420, 438 ]
+1300 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float3.c
+1301 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float3.c', 420, 438 ]
+1302 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float4.c
+1303 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float4.c', 420, 438 ]
+1304 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float_va.c
+1305 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/float_va.c', 420, 438 ]
+1306 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/huge_struct.c
+1307 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/huge_struct.c', 420, 438 ]
+1308 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many.c
+1309 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/many.c', 420, 438 ]
+1310 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2.c
+1311 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/many2.c', 420, 438 ]
+1312 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2_win32.c
+1313 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/many2_win32.c', 420, 438 ]
+1314 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many_win32.c
+1315 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/many_win32.c', 420, 438 ]
+1316 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/negint.c
+1317 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/negint.c', 420, 438 ]
+1318 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct.c
+1319 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct.c', 420, 438 ]
+1320 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct1.c
+1321 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct1.c',
+1321 silly gunzTarPerm   420,
+1321 silly gunzTarPerm   438 ]
+1322 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct10.c
+1323 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct10.c',
+1323 silly gunzTarPerm   420,
+1323 silly gunzTarPerm   438 ]
+1324 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct2.c
+1325 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct2.c',
+1325 silly gunzTarPerm   420,
+1325 silly gunzTarPerm   438 ]
+1326 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct3.c
+1327 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct3.c',
+1327 silly gunzTarPerm   420,
+1327 silly gunzTarPerm   438 ]
+1328 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct4.c
+1329 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct4.c',
+1329 silly gunzTarPerm   420,
+1329 silly gunzTarPerm   438 ]
+1330 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct5.c
+1331 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct5.c',
+1331 silly gunzTarPerm   420,
+1331 silly gunzTarPerm   438 ]
+1332 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct6.c
+1333 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct6.c',
+1333 silly gunzTarPerm   420,
+1333 silly gunzTarPerm   438 ]
+1334 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct7.c
+1335 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct7.c',
+1335 silly gunzTarPerm   420,
+1335 silly gunzTarPerm   438 ]
+1336 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct8.c
+1337 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct8.c',
+1337 silly gunzTarPerm   420,
+1337 silly gunzTarPerm   438 ]
+1338 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct9.c
+1339 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/nested_struct9.c',
+1339 silly gunzTarPerm   420,
+1339 silly gunzTarPerm   438 ]
+1340 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/problem1.c
+1341 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/problem1.c', 420, 438 ]
+1342 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/promotion.c
+1343 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/promotion.c', 420, 438 ]
+1344 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/pyobjc-tc.c
+1345 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/pyobjc-tc.c', 420, 438 ]
+1346 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl.c
+1347 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_dbl.c', 420, 438 ]
+1348 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl1.c
+1349 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_dbl1.c', 420, 438 ]
+1350 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl2.c
+1351 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_dbl2.c', 420, 438 ]
+1352 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl.c
+1353 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_fl.c', 420, 438 ]
+1354 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl1.c
+1355 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_fl1.c', 420, 438 ]
+1356 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl2.c
+1357 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_fl2.c', 420, 438 ]
+1358 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl3.c
+1359 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_fl3.c', 420, 438 ]
+1360 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ldl.c
+1361 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_ldl.c', 420, 438 ]
+1362 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll.c
+1363 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_ll.c', 420, 438 ]
+1364 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll1.c
+1365 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_ll1.c', 420, 438 ]
+1366 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sc.c
+1367 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_sc.c', 420, 438 ]
+1368 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sl.c
+1369 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_sl.c', 420, 438 ]
+1370 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_uc.c
+1371 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_uc.c', 420, 438 ]
+1372 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ul.c
+1373 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/return_ul.c', 420, 438 ]
+1374 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large.c
+1375 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/stret_large.c', 420, 438 ]
+1376 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large2.c
+1377 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/stret_large2.c', 420, 438 ]
+1378 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium.c
+1379 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/stret_medium.c', 420, 438 ]
+1380 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium2.c
+1381 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/stret_medium2.c', 420, 438 ]
+1382 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen.c
+1383 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/strlen.c', 420, 438 ]
+1384 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen2_win32.c
+1385 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/strlen2_win32.c', 420, 438 ]
+1386 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen_win32.c
+1387 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/strlen_win32.c', 420, 438 ]
+1388 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1.c
+1389 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct1.c', 420, 438 ]
+1390 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1_win32.c
+1391 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct1_win32.c', 420, 438 ]
+1392 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2.c
+1393 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct2.c', 420, 438 ]
+1394 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2_win32.c
+1395 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct2_win32.c', 420, 438 ]
+1396 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct3.c
+1397 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct3.c', 420, 438 ]
+1398 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct4.c
+1399 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct4.c', 420, 438 ]
+1400 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct5.c
+1401 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct5.c', 420, 438 ]
+1402 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct6.c
+1403 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct6.c', 420, 438 ]
+1404 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct7.c
+1405 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct7.c', 420, 438 ]
+1406 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct8.c
+1407 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct8.c', 420, 438 ]
+1408 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct9.c
+1409 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/struct9.c', 420, 438 ]
+1410 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/testclosure.c
+1411 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.call/testclosure.c', 420, 438 ]
+1412 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/ffitestcxx.h
+1413 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.special/ffitestcxx.h', 420, 438 ]
+1414 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/special.exp
+1415 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.special/special.exp', 420, 438 ]
+1416 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest.cc
+1417 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.special/unwindtest.cc',
+1417 silly gunzTarPerm   420,
+1417 silly gunzTarPerm   438 ]
+1418 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest_ffi_call.cc
+1419 silly gunzTarPerm modified mode [ 'deps/libffi/testsuite/libffi.special/unwindtest_ffi_call.cc',
+1419 silly gunzTarPerm   420,
+1419 silly gunzTarPerm   438 ]
+1420 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.info
+1421 silly gunzTarPerm modified mode [ 'deps/libffi/doc/libffi.info', 420, 438 ]
+1422 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.texi
+1423 silly gunzTarPerm modified mode [ 'deps/libffi/doc/libffi.texi', 420, 438 ]
+1424 silly gunzTarPerm extractEntry deps/libffi/doc/stamp-vti
+1425 silly gunzTarPerm modified mode [ 'deps/libffi/doc/stamp-vti', 420, 438 ]
+1426 silly gunzTarPerm extractEntry deps/libffi/doc/version.texi
+1427 silly gunzTarPerm modified mode [ 'deps/libffi/doc/version.texi', 420, 438 ]
+1428 silly gunzTarPerm extractEntry example/abs.js
+1429 silly gunzTarPerm modified mode [ 'example/abs.js', 420, 438 ]
+1430 silly gunzTarPerm extractEntry example/sqlite.js
+1431 silly gunzTarPerm modified mode [ 'example/sqlite.js', 420, 438 ]
+1432 silly gunzTarPerm extractEntry example/factorial/README.md
+1433 silly gunzTarPerm modified mode [ 'example/factorial/README.md', 420, 438 ]
+1434 silly gunzTarPerm extractEntry example/factorial/factorial.js
+1435 silly gunzTarPerm modified mode [ 'example/factorial/factorial.js', 420, 438 ]
+1436 silly gunzTarPerm extractEntry example/factorial/factorial.c
+1437 silly gunzTarPerm modified mode [ 'example/factorial/factorial.c', 420, 438 ]
+1438 silly gunzTarPerm extractEntry lib/_foreign_function.js
+1439 silly gunzTarPerm modified mode [ 'lib/_foreign_function.js', 420, 438 ]
+1440 silly gunzTarPerm extractEntry lib/cif.js
+1441 silly gunzTarPerm modified mode [ 'lib/cif.js', 420, 438 ]
+1442 silly gunzTarPerm extractEntry lib/cif_var.js
+1443 silly gunzTarPerm modified mode [ 'lib/cif_var.js', 420, 438 ]
+1444 silly gunzTarPerm extractEntry lib/dynamic_library.js
+1445 silly gunzTarPerm modified mode [ 'lib/dynamic_library.js', 420, 438 ]
+1446 silly gunzTarPerm extractEntry lib/callback.js
+1447 silly gunzTarPerm modified mode [ 'lib/callback.js', 420, 438 ]
+1448 silly gunzTarPerm extractEntry lib/ffi.js
+1449 silly gunzTarPerm modified mode [ 'lib/ffi.js', 420, 438 ]
+1450 silly gunzTarPerm extractEntry lib/foreign_function.js
+1451 silly gunzTarPerm modified mode [ 'lib/foreign_function.js', 420, 438 ]
+1452 silly gunzTarPerm extractEntry lib/foreign_function_var.js
+1453 silly gunzTarPerm modified mode [ 'lib/foreign_function_var.js', 420, 438 ]
+1454 silly gunzTarPerm extractEntry lib/function.js
+1455 silly gunzTarPerm modified mode [ 'lib/function.js', 420, 438 ]
+1456 silly gunzTarPerm extractEntry lib/library.js
+1457 silly gunzTarPerm modified mode [ 'lib/library.js', 420, 438 ]
+1458 silly gunzTarPerm extractEntry lib/bindings.js
+1459 silly gunzTarPerm modified mode [ 'lib/bindings.js', 420, 438 ]
+1460 silly gunzTarPerm extractEntry lib/type.js
+1461 silly gunzTarPerm modified mode [ 'lib/type.js', 420, 438 ]
+1462 silly gunzTarPerm extractEntry lib/errno.js
+1463 silly gunzTarPerm modified mode [ 'lib/errno.js', 420, 438 ]
+1464 silly gunzTarPerm extractEntry src/callback_info.cc
+1465 silly gunzTarPerm modified mode [ 'src/callback_info.cc', 420, 438 ]
+1466 silly gunzTarPerm extractEntry src/ffi.cc
+1467 silly gunzTarPerm modified mode [ 'src/ffi.cc', 420, 438 ]
+1468 silly gunzTarPerm extractEntry src/ffi.h
+1469 silly gunzTarPerm modified mode [ 'src/ffi.h', 420, 438 ]
+1470 silly gunzTarPerm extractEntry src/threaded_callback_invokation.cc
+1471 silly gunzTarPerm modified mode [ 'src/threaded_callback_invokation.cc', 420, 438 ]
+1472 silly gunzTarPerm extractEntry src/win32-dlfcn.cc
+1473 silly gunzTarPerm modified mode [ 'src/win32-dlfcn.cc', 420, 438 ]
+1474 silly gunzTarPerm extractEntry src/win32-dlfcn.h
+1475 silly gunzTarPerm modified mode [ 'src/win32-dlfcn.h', 420, 438 ]
+1476 silly gunzTarPerm extractEntry CHANGELOG.md
+1477 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1478 silly gunzTarPerm extractEntry test/variadic.js
+1479 silly gunzTarPerm modified mode [ 'test/variadic.js', 420, 438 ]
+1480 silly gunzTarPerm extractEntry test/cif.js
+1481 silly gunzTarPerm modified mode [ 'test/cif.js', 420, 438 ]
+1482 silly gunzTarPerm extractEntry test/dynamic_library.js
+1483 silly gunzTarPerm modified mode [ 'test/dynamic_library.js', 420, 438 ]
+1484 silly gunzTarPerm extractEntry test/errno.js
+1485 silly gunzTarPerm modified mode [ 'test/errno.js', 420, 438 ]
+1486 silly gunzTarPerm extractEntry test/types.js
+1487 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+1488 silly gunzTarPerm extractEntry test/callback.js
+1489 silly gunzTarPerm modified mode [ 'test/callback.js', 420, 438 ]
+1490 silly gunzTarPerm extractEntry test/function.js
+1491 silly gunzTarPerm modified mode [ 'test/function.js', 420, 438 ]
+1492 silly gunzTarPerm extractEntry test/library.js
+1493 silly gunzTarPerm modified mode [ 'test/library.js', 420, 438 ]
+1494 silly gunzTarPerm extractEntry test/objc.js
+1495 silly gunzTarPerm modified mode [ 'test/objc.js', 420, 438 ]
+1496 silly gunzTarPerm extractEntry test/foreign_function.js
+1497 silly gunzTarPerm modified mode [ 'test/foreign_function.js', 420, 438 ]
+1498 silly gunzTarPerm extractEntry test/ffi_tests.cc
+1499 silly gunzTarPerm modified mode [ 'test/ffi_tests.cc', 420, 438 ]
+1500 silly gunzTarPerm extractEntry test/binding.gyp
+1501 silly gunzTarPerm modified mode [ 'test/binding.gyp', 420, 438 ]
+1502 silly gentlyRm F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c\node_modules is being purged
+1503 verbose gentlyRm don't care about contents; nuking F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c\node_modules
+1504 silly doParallel preinstall 7
+1505 silly preinstall bindings@1.2.1 F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9
+1506 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+1507 silly preinstall ms@0.7.2 F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c
+1508 info lifecycle ms@0.7.2~preinstall: ms@0.7.2
+1509 silly preinstall debug@2.5.1 F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34
+1510 info lifecycle debug@2.5.1~preinstall: debug@2.5.1
+1511 silly preinstall nan@2.5.0 F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e
+1512 info lifecycle nan@2.5.0~preinstall: nan@2.5.0
+1513 silly preinstall ref@1.3.3 F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65
+1514 info lifecycle ref@1.3.3~preinstall: ref@1.3.3
+1515 silly preinstall ref-struct@1.1.0 F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-struct-7d09a9b1
+1516 info lifecycle ref-struct@1.1.0~preinstall: ref-struct@1.1.0
+1517 silly preinstall ffi@2.2.0 F:\MYCODE\nodejs\DHT\node_modules\.staging\ffi-e90a3a5c
+1518 info lifecycle ffi@2.2.0~preinstall: ffi@2.2.0
+1519 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+1520 silly lifecycle ms@0.7.2~preinstall: no script for preinstall, continuing
+1521 silly lifecycle debug@2.5.1~preinstall: no script for preinstall, continuing
+1522 silly lifecycle nan@2.5.0~preinstall: no script for preinstall, continuing
+1523 silly lifecycle ref@1.3.3~preinstall: no script for preinstall, continuing
+1524 silly lifecycle ref-struct@1.1.0~preinstall: no script for preinstall, continuing
+1525 silly lifecycle ffi@2.2.0~preinstall: no script for preinstall, continuing
+1526 silly doReverseSerial remove 0
+1527 silly doSerial move 0
+1528 silly doSerial finalize 7
+1529 silly finalize F:\MYCODE\nodejs\DHT\node_modules\bindings
+1530 silly finalize F:\MYCODE\nodejs\DHT\node_modules\ms
+1531 silly finalize F:\MYCODE\nodejs\DHT\node_modules\debug
+1532 silly finalize F:\MYCODE\nodejs\DHT\node_modules\nan
+1533 silly finalize F:\MYCODE\nodejs\DHT\node_modules\ref
+1534 silly finalize F:\MYCODE\nodejs\DHT\node_modules\ref-struct
+1535 silly finalize F:\MYCODE\nodejs\DHT\node_modules\ffi
+1536 silly doSerial build 7
+1537 silly build bindings@1.2.1
+1538 info linkStuff bindings@1.2.1
+1539 silly linkStuff bindings@1.2.1 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1540 verbose linkBins bindings@1.2.1
+1541 verbose linkMans bindings@1.2.1
+1542 silly build ms@0.7.2
+1543 info linkStuff ms@0.7.2
+1544 silly linkStuff ms@0.7.2 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1545 verbose linkBins ms@0.7.2
+1546 verbose linkMans ms@0.7.2
+1547 silly build debug@2.5.1
+1548 info linkStuff debug@2.5.1
+1549 silly linkStuff debug@2.5.1 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1550 verbose linkBins debug@2.5.1
+1551 verbose linkMans debug@2.5.1
+1552 silly build nan@2.5.0
+1553 info linkStuff nan@2.5.0
+1554 silly linkStuff nan@2.5.0 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1555 verbose linkBins nan@2.5.0
+1556 verbose linkMans nan@2.5.0
+1557 silly build ref@1.3.3
+1558 info linkStuff ref@1.3.3
+1559 silly linkStuff ref@1.3.3 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1560 verbose linkBins ref@1.3.3
+1561 verbose linkMans ref@1.3.3
+1562 silly build ref-struct@1.1.0
+1563 info linkStuff ref-struct@1.1.0
+1564 silly linkStuff ref-struct@1.1.0 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1565 verbose linkBins ref-struct@1.1.0
+1566 verbose linkMans ref-struct@1.1.0
+1567 silly build ffi@2.2.0
+1568 info linkStuff ffi@2.2.0
+1569 silly linkStuff ffi@2.2.0 has F:\MYCODE\nodejs\DHT\node_modules as its parent node_modules
+1570 verbose linkBins ffi@2.2.0
+1571 verbose linkMans ffi@2.2.0
+1572 silly doSerial global-link 0
+1573 silly doParallel update-linked 0
+1574 silly doSerial install 7
+1575 silly install bindings@1.2.1 F:\MYCODE\nodejs\DHT\node_modules\.staging\bindings-85045eb9
+1576 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+1577 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+1578 silly install ms@0.7.2 F:\MYCODE\nodejs\DHT\node_modules\.staging\ms-4ab57d8c
+1579 info lifecycle ms@0.7.2~install: ms@0.7.2
+1580 silly lifecycle ms@0.7.2~install: no script for install, continuing
+1581 silly install debug@2.5.1 F:\MYCODE\nodejs\DHT\node_modules\.staging\debug-07519c34
+1582 info lifecycle debug@2.5.1~install: debug@2.5.1
+1583 silly lifecycle debug@2.5.1~install: no script for install, continuing
+1584 silly install nan@2.5.0 F:\MYCODE\nodejs\DHT\node_modules\.staging\nan-a42aab2e
+1585 info lifecycle nan@2.5.0~install: nan@2.5.0
+1586 silly lifecycle nan@2.5.0~install: no script for install, continuing
+1587 silly install ref@1.3.3 F:\MYCODE\nodejs\DHT\node_modules\.staging\ref-a10a8d65
+1588 info lifecycle ref@1.3.3~install: ref@1.3.3
+1589 verbose lifecycle ref@1.3.3~install: unsafe-perm in lifecycle true
+1590 verbose lifecycle ref@1.3.3~install: PATH: E:\nodejs\node_modules\npm\bin\node-gyp-bin;F:\MYCODE\nodejs\DHT\node_modules\ref\node_modules\.bin;F:\MYCODE\nodejs\DHT\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;E:\nodejs\;C:\Users\txt_c\AppData\Local\Microsoft\WindowsApps;C:\Users\txt_c\AppData\Roaming\npm
+1591 verbose lifecycle ref@1.3.3~install: CWD: F:\MYCODE\nodejs\DHT\node_modules\ref
+1592 silly lifecycle ref@1.3.3~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1593 silly lifecycle ref@1.3.3~install: Returned: code: 1  signal: null
+1594 info lifecycle ref@1.3.3~install: Failed to exec install script
+1595 verbose unlock done using C:\Users\txt_c\AppData\Roaming\npm-cache\_locks\staging-05e73e55956f147d.lock for F:\MYCODE\nodejs\DHT\node_modules\.staging
+1596 silly rollbackFailedOptional Starting
+1597 silly rollbackFailedOptional Finishing
+1598 silly runTopLevelLifecycles Finishing
+1599 silly install printInstalled
+1600 verbose stack Error: ref@1.3.3 install: `node-gyp rebuild`
+1600 verbose stack Exit status 1
+1600 verbose stack     at EventEmitter.<anonymous> (E:\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1600 verbose stack     at emitTwo (events.js:106:13)
+1600 verbose stack     at EventEmitter.emit (events.js:191:7)
+1600 verbose stack     at ChildProcess.<anonymous> (E:\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1600 verbose stack     at emitTwo (events.js:106:13)
+1600 verbose stack     at ChildProcess.emit (events.js:191:7)
+1600 verbose stack     at maybeClose (internal/child_process.js:885:16)
+1600 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1601 verbose pkgid ref@1.3.3
+1602 verbose cwd F:\MYCODE\nodejs\DHT\myapp
+1603 error Windows_NT 10.0.14393
+1604 error argv "E:\\nodejs\\node.exe" "E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ffi"
+1605 error node v7.2.1
+1606 error npm  v3.10.10
+1607 error code ELIFECYCLE
+1608 error ref@1.3.3 install: `node-gyp rebuild`
+1608 error Exit status 1
+1609 error Failed at the ref@1.3.3 install script 'node-gyp rebuild'.
+1609 error Make sure you have the latest version of node.js and npm installed.
+1609 error If you do, this is most likely a problem with the ref package,
+1609 error not with npm itself.
+1609 error Tell the author that this fails on your system:
+1609 error     node-gyp rebuild
+1609 error You can get information on how to open an issue for this project with:
+1609 error     npm bugs ref
+1609 error Or if that isn't available, you can get their info via:
+1609 error     npm owner ls ref
+1609 error There is likely additional logging output above.
+1610 verbose exit [ 1, true ]
