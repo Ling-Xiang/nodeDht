@@ -240,16 +240,6 @@ DHTSpider.prototype.start = function() {
 　　var j = schedule.scheduleJob(rule, function(){
 
 　　　  console.log("执行去重任务");
-        var mysql = require('mysql');
-        var conn = mysql.createConnection({
-            host: 'qdm182320291.my3w.com',
-            user: 'qdm182320291',
-            password: 'lichang5959',
-            database:'qdm182320291_db',
-            port: 3306,
-            insecureAuth: true
-        });
-       conn.connect();
 
     //console.log("magnet:?xt=urn:btih:%s from %s:%s", infohash.toString("hex"), rinfo.address, rinfo.port);
        var util = require('util');
