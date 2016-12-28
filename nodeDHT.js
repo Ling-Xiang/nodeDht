@@ -10,20 +10,13 @@ var mysql = Client.create({
   'maxconnections' : 10
 });
 mysql.addserver({
-  'host' : 'qdm182320291.my3w.com',
-  'user' : 'qdm182320291',
-  'password' : 'lichang5959',
-  'database' : 'qdm182320291_db',
+  'host' : 'localhost',
+  'user' : 'root',
+  'password' : 'root',
+  'database' : 'nodejs',
   'insecureAuth' : 'true'
 });
-// var conn = mysql.createConnection({
-//         host: 'qdm182320291.my3w.com',
-//         user: 'qdm182320291',
-//         password: 'lichang5959',
-//         database:'qdm182320291_db',
-//         port: 3306,
-//         insecureAuth: true
-// });
+ 
 
 var BOOTSTRAP_NODES = [
     ['router.bittorrent.com', 6881],
